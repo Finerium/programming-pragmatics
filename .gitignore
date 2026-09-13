@@ -1,0 +1,10 @@
+.DS_Store
+
+# slide dan foto materi dari dosen, hak cipta kampus, disimpan lokal saja
+materi/
+
+# contoh tugas milik teman, cuma dipakai sebagai pembanding, bukan untuk dipublikasikan
+**/referensi/
+
+# berkas kerja sementara (skrip rakit PDF, hasil riset mentah)
+**/draf/
