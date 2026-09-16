@@ -1,0 +1,33 @@
+$ javac -Xlint:all -Werror -d kelas src/main/java/los/*.java && java -cp kelas los.Demo
+
+=== 1) Perhitungan dasar ===
+  DTI Budi: 0.2500
+  Cicilan Rp200 juta, bunga 8%, tenor 24 bulan: Rp9,045,458
+
+=== 2) Penyaringan awal oleh Underwriter ===
+  Budi (pokok Rp200,000,000, tenor 24 bulan, skor 680)
+    dilanggar : []
+    keputusan : Selamat, pinjaman Rp200,000,000 disetujui dengan tambahan bunga risiko 1.5%
+  Siti (pokok Rp50,000,000, tenor 24 bulan, skor 590)
+    dilanggar : [skor minimum 620]
+    keputusan : Maaf, pengajuan ditolak. Aturan yang dilanggar: skor minimum 620
+  Andi (pokok Rp3,000,000,000, tenor 24 bulan, skor 680)
+    dilanggar : [pokok maksimum Rp2,000,000,000]
+    keputusan : Maaf, pengajuan ditolak. Aturan yang dilanggar: pokok maksimum Rp2,000,000,000
+
+=== 3) Validasi dasar: objek Pengajuan menolak dibuat kalau datanya cacat ===
+  Pengajuan Coba tidak valid: pokok harus positif, diberikan Rp-1; tenor harus positif, diberikan 0; skor kredit tidak valid, diberikan 250
+    - pokok harus positif, diberikan Rp-1
+    - tenor harus positif, diberikan 0
+    - skor kredit tidak valid, diberikan 250
+
+=== 4) Underwriting oleh Bank dengan kuota harian ===
+  Kuota awal hari ini: Rp1,000,000,000
+  Budi: disetujui, Rp200,000,000 selama 24 bulan dengan bunga 7.75%
+    cicilan bulanan Rp9,022,671
+  Andi: Underwriting Andi ditolak: pokok Rp3,000,000,000 melebihi plafon per pinjaman Rp500,000,000; kuota harian tersisa Rp800,000,000 tidak cukup untuk Rp3,000,000,000
+  Sisa kuota: Rp800,000,000
+  Jurnal:
+    - Validasi dasar lolos untuk Budi
+    - Kuota dicadangkan: Rp200,000,000
+    - Disetujui dengan bunga 7.75%

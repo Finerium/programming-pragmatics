@@ -1,0 +1,41 @@
+$ swipl demo.pl
+
+=== 1) Perhitungan dasar ===
+  DTI Budi: 0.25
+  Cicilan Rp200 juta, bunga 8%, tenor 24 bulan: Rp9045458
+
+=== 2) Aturan underwriting yang dilanggar tiap pemohon ===
+  budi: []
+  siti: [skor_minimum]
+  andi: [pokok_maksimum]
+
+=== 3) Siapa saja yang layak? (backtracking atas fakta pengajuan) ===
+  budi
+
+=== 4) Keputusan awal dan pesan ke pemohon ===
+  budi: disetujui(200000000,1.5)
+           Selamat, pinjaman Rp200,000,000 disetujui dengan tambahan bunga risiko 1.5%
+  siti: ditolak([skor_minimum])
+           Maaf, pengajuan ditolak. Aturan yang dilanggar: skor_minimum
+  andi: ditolak([pokok_maksimum])
+           Maaf, pengajuan ditolak. Aturan yang dilanggar: pokok_maksimum
+
+=== 5) Validasi dasar: pengajuan cacat tidak bisa diproses ===
+  proses/2 gagal. Cacatnya: [pokok_tidak_positif,tenor_tidak_positif]
+
+=== 6) Underwriting dengan state harian bank ===
+  Kuota awal hari ini: Rp1,000,000,000
+  budi: disetujui(200000000,7.75)
+  andi: gagal, hambatan [melebihi_plafon_per_pinjaman(500000000),kuota_harian_tidak_cukup(800000000)]
+  Sisa kuota: Rp800,000,000
+  Jurnal:
+    - Validasi dasar lolos untuk budi
+    - Kuota dicadangkan: Rp200,000,000
+    - Disetujui dengan bunga 7.75%
+
+=== 7) Query yang enak ditanyakan di Prolog ===
+  Skor terendah supaya Siti disetujui: 650
+  Pokok terbesar supaya Andi disetujui (kelipatan 100 juta): Rp2,000,000,000
+  Skor yang kena premi risiko 1.5%: 600 sampai 699
+  Total pokok yang disetujui hari ini: Rp200,000,000 dari kuota Rp1,000,000,000
+
