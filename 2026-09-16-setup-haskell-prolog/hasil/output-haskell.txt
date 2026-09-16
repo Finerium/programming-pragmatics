@@ -1,0 +1,13 @@
+doubleMe 9             = 18
+doubleSmallNumber 101  = 101
+lostNumbers            = [4,8,15,16,23,42]
+head/last              = (4,42)
+take 3 dan reverse     = ([4,8,15],[42,23,16,15,8,4])
+range [2,4..20]        = [2,4,6,8,10,12,14,16,18,20]
+take 10 (cycle [1,2,3])= [1,2,3,1,2,3,1,2,3,1]
+boomBangs [7..13]      = ["BOOM!","BOOM!","BANG!","BANG!"]
+rightTriangles         = [(6,8,10)]
+zip nama dan umur      = [("ani",19),("budi",20),("cici",21)]
+faktorial 20           = 2432902008176640000
+nilai 85, 72, 45       = ["A","B","E"]
+huruf besar            = PROGRAMMING PRAGMATICS

@@ -1,0 +1,7 @@
+anak dari budi   : [ani,cici]
+orangtua ani     : [budi,sari]
+saudara ani      : [cici]
+kakek dari ani   : [dedi]
+keturunan dedi   : [budi,ani,cici]
+faktorial 5      : 120
+apakah budi laki : ya

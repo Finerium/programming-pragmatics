@@ -1,0 +1,6 @@
+26
+100
+"It's a-me, Conan O'Brien!"
+["BOOM!","BOOM!","BANG!","BANG!"]
+[(6,8,10)]
+[12,14,16,18,20]
