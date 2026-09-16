@@ -1,8 +1,9 @@
 dtiNeverNegative ... lolos 100 kasus
 paymentIsPositive ... lolos 100 kasus
 higherScoreGetsBetterOrEqualRate ... lolos 100 kasus
-validateRejectsNonPositivePrincipal ... menyerah, cuma 0 kasus relevan, 10000 dibuang
+validateRejectsNonPositivePrincipal ... MENYERAH, cuma 0 kasus relevan, 10000 dibuang
 passesAllImpliesEachRule ... lolos 100 kasus, 1033 dibuang
 underwritingIsDeterministic ... lolos 100 kasus
 
-Semua property lolos.
+5 property lolos, 1 menyerah, 0 gagal.
+Property yang menyerah belum benar-benar teruji, generatornya perlu diperbaiki.

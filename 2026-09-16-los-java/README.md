@@ -1,4 +1,4 @@
-# los-java — Loan Originating System versi Java OO
+# los-java: Loan Originating System versi Java OO
 
 Permintaan Pak Joe di grup, 16 September 2026: dibuatkan versi Java OO dari `los-haskell`
 dan `los-prolog`. Domainnya sama persis, yaitu proses pengajuan kredit (LOS), dan urutan
@@ -46,7 +46,7 @@ jadi cukup `javac` dan `java` saja.
 
 ```
 los-java/
-├── src/los/          15 berkas sumber, satu tipe satu berkas
+├── src/los/          18 berkas sumber, satu tipe satu berkas
 ├── kelas/            hasil kompilasi (dibuat ulang oleh javac)
 ├── hasil/            keluaran teks Main dan Spec
 ├── tangkapan/        screenshot terminal
@@ -65,6 +65,7 @@ los-java/
 | `Auditable`, `AuditSeverity`, `AuditTrail`, `Note` | audit trail lewat interface |
 | `Main` | demo end-to-end |
 | `Spec` | property-based test tanpa library |
+| `Fmt` | format rupiah dan persen |
 
 ## Cara menjalankan
 
@@ -83,11 +84,22 @@ jshell> /exit
 
 ## Catatan hasil
 
-Keluaran `los.Main` sama urutan dan isinya dengan versi Haskell dan Prolog, angkanya juga sama
-(DTI 0.25, cicilan Rp9.045.458, rate akhir 7,75%, sisa kuota Rp800 juta).
+Bagian 1 sampai 5 keluaran `los.Main` urutannya sama dengan versi Haskell dan Prolog. Bagian 2b dan 6
+adalah tambahan di versi Java, dan bagian 6 versi Prolog (`which_rules_pass`) tidak ikut ditiru.
+Angkanya sama persis dengan kedua versi lain (DTI 0.25, cicilan Rp9,045,458, rate akhir 7.75%, sisa
+kuota Rp800,000,000), hanya formatnya disesuaikan supaya lebih enak dibaca: Haskell mencetak `2.0e8`,
+versi Java mencetak `Rp200,000,000`.
+
+Ada satu beda perilaku yang disengaja: `Note.severity()` mencocokkan kata "fraud" dan "suspicious"
+setelah teksnya di-lowercase, sedangkan `isInfixOf` di Haskell peka huruf besar kecil. Jadi di versi
+Java, catatan bertuliskan "FRAUD" ikut tertangkap sebagai Critical.
+
+Generator di `Spec.java` memakai seed tetap 42, jadi hasilnya sama setiap kali dijalankan. Dicoba
+dengan beberapa seed lain hasilnya tetap sama, cuma jumlah kasus yang dibuang bergeser.
 
 `los.Spec` sengaja dibuat meniru QuickCheck, termasuk cara membuang kasus yang tidak relevan.
 Hasilnya memperlihatkan masalah yang sama dengan versi Haskell: property
 `validateRejectsNonPositivePrincipal` menyerah karena generatornya tidak pernah menghasilkan
 principal yang nol atau negatif, jadi property itu praktis tidak pernah teruji. Artinya masalahnya
-ada di generator, bukan di bahasanya.
+ada di generator, bukan di bahasanya. Karena itu ringkasan di akhir menghitung yang menyerah secara
+terpisah, tidak dianggap lolos, berbeda dengan QuickCheck yang tetap melaporkan test suite PASS.

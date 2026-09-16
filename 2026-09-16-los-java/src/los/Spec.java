@@ -1,5 +1,6 @@
 package los;
 
+import java.util.ArrayList;
 import java.util.List;
 import java.util.Random;
 import java.util.function.Predicate;
@@ -24,6 +25,8 @@ public final class Spec {
                 ACAK.nextDouble() * 20_000_000,
                 1_000_000 + ACAK.nextDouble() * 49_000_000);
     }
+
+    static int menyerah = 0;
 
     public static void main(String[] args) {
         int gagal = 0;
@@ -52,7 +55,11 @@ public final class Spec {
         });
 
         System.out.println();
-        System.out.println(gagal == 0 ? "Semua property lolos." : gagal + " property gagal.");
+        int lolos = 6 - gagal - menyerah;
+        System.out.println(lolos + " property lolos, " + menyerah + " menyerah, " + gagal + " gagal.");
+        if (menyerah > 0) {
+            System.out.println("Property yang menyerah belum benar-benar teruji, generatornya perlu diperbaiki.");
+        }
         if (gagal > 0) {
             System.exit(1);
         }
@@ -77,7 +84,7 @@ public final class Spec {
     static int cekBersyarat(String nama, Predicate<LoanApplication> syarat, Predicate<LoanApplication> property) {
         int lolos = 0;
         int dibuang = 0;
-        List<LoanApplication> gagal = new java.util.ArrayList<>();
+        List<LoanApplication> gagal = new ArrayList<>();
         for (int i = 0; lolos < 100 && i < 10_000; i++) {
             LoanApplication app = genApp();
             if (!syarat.test(app)) {
@@ -97,7 +104,8 @@ public final class Spec {
             return 1;
         }
         if (lolos < 100) {
-            System.out.println("menyerah, cuma " + lolos + " kasus relevan, " + dibuang + " dibuang");
+            System.out.println("MENYERAH, cuma " + lolos + " kasus relevan, " + dibuang + " dibuang");
+            menyerah++;
             return 0;
         }
         System.out.println("lolos " + lolos + " kasus" + (dibuang > 0 ? ", " + dibuang + " dibuang" : ""));

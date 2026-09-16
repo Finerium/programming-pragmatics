@@ -2,7 +2,7 @@ package los;
 
 import java.util.List;
 
-/** Demo end-to-end, urutannya sama dengan app/Main.hs dan main.pl. */
+/** Demo end-to-end. Bagian 1 sampai 5 urutannya sama dengan app/Main.hs dan main.pl, 2b dan 6 tambahan. */
 public final class Main {
 
     static final LoanApplication SAMPLE = new LoanApplication("Budi", 200_000_000, 0, 24, 680, 3_000_000, 12_000_000);

@@ -61,8 +61,11 @@ public final class Pipeline {
         return Result.ok(app);
     }
 
-    /** flatMap membuat rantai validasi berhenti di kegagalan pertama, seperti do-block Either. */
+    /**
+      * flatMap membuat rantai berhenti di kegagalan pertama: kalau validasi menghasilkan Err,
+      * lambda di bawah tidak pernah dijalankan. Ini padanan do-block Either di Haskell.
+      */
     public static Result<LoanDecision> processApplication(LoanApplication app) {
-        return validateApplication(app).map(Pipeline::adjustRateForRisk).map(Pipeline::decide);
+        return validateApplication(app).flatMap(valid -> Result.ok(decide(adjustRateForRisk(valid))));
     }
 }

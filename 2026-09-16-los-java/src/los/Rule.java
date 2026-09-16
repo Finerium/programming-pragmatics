@@ -8,7 +8,4 @@ import java.util.function.Predicate;
  */
 @FunctionalInterface
 public interface Rule extends Predicate<LoanApplication> {
-    default String nama() {
-        return "rule";
-    }
 }

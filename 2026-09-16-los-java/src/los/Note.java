@@ -11,6 +11,10 @@ public record Note(String teks) implements Auditable {
         return "NOTE | " + teks;
     }
 
+    /**
+      * Beda kecil yang disengaja dari versi Haskell: di sana isInfixOf peka huruf besar kecil,
+      * di sini dicocokkan setelah di-lowercase supaya "FRAUD" juga ikut tertangkap.
+      */
     @Override
     public AuditSeverity severity() {
         String kecil = teks.toLowerCase();

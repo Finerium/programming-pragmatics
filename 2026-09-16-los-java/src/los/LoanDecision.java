@@ -34,6 +34,10 @@ public sealed interface LoanDecision extends Auditable
     }
 
     record PendingReview(List<String> missingDocs) implements LoanDecision {
+        public PendingReview {
+            missingDocs = List.copyOf(missingDocs);
+        }
+
         @Override
         public String auditEntry() {
             return "PENDING | missing=" + missingDocs;

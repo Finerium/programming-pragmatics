@@ -32,7 +32,7 @@ public record LoanApplication(String applicantName, double principal, double ann
     }
 
     private static String samarkan(String nama) {
-        return nama.length() > 3 ? nama.charAt(0) + "***" : nama;
+        return nama.length() >= 3 ? nama.charAt(0) + "***" : nama;
     }
 
     @Override
