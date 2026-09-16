@@ -1,0 +1,1082 @@
+Warning: /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:25:
+Warning:    Singleton variable in branch: RateInt
+Warning: /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+Warning:    Singleton variables: [BadPrincipal]
+% Start unit: los_properties
+% [1-1/8] los_properties:dti_never_negative ......... passed (0.005 sec)
+% [1-2/8] los_properties:dti_never_negative ......... passed (0.000 sec)
+% [1-3/8] los_properties:dti_never_negative ......... passed (0.000 sec)
+% [1-4/8] los_properties:dti_never_negative ......... passed (0.000 sec)
+% [1-5/8] los_properties:dti_never_negative ......... passed (0.000 sec)
+% [1-6/8] los_properties:dti_never_negative ......... passed (0.000 sec)
+% [1-7/8] los_properties:dti_never_negative ......... passed (0.000 sec)
+% [1-8/8] los_properties:dti_never_negative ......... passed (0.000 sec)
+% [1-9/8] los_properties:dti_never_negative ......... passed (0.000 sec)
+% [1-10/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-11/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-12/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-13/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-14/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-15/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-16/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-17/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-18/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-19/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-20/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-21/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-22/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-23/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-24/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-25/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-26/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-27/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-28/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-29/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-30/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-31/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-32/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-33/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-34/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-35/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-36/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-37/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-38/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-39/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-40/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-41/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-42/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-43/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-44/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-45/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-46/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-47/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-48/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-49/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-50/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-51/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-52/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-53/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-54/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-55/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-56/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-57/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-58/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-59/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-60/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-61/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-62/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-63/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-64/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-65/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-66/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-67/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-68/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-69/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-70/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-71/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-72/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-73/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-74/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-75/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-76/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-77/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-78/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-79/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-80/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-81/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-82/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-83/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-84/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-85/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-86/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-87/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-88/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-89/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-90/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-91/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-92/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-93/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-94/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-95/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-96/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-97/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-98/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-99/8] los_properties:dti_never_negative ........ passed (0.000 sec)
+% [1-100/8] los_properties:dti_never_negative ....... passed (0.000 sec)
+% [2-1/8] los_properties:payment_is_positive ........ passed (0.000 sec)
+% [2-2/8] los_properties:payment_is_positive ........ passed (0.000 sec)
+% [2-3/8] los_properties:payment_is_positive ........ passed (0.000 sec)
+% [2-4/8] los_properties:payment_is_positive ........ passed (0.000 sec)
+% [2-5/8] los_properties:payment_is_positive ........ passed (0.000 sec)
+% [2-6/8] los_properties:payment_is_positive ........ passed (0.000 sec)
+% [2-7/8] los_properties:payment_is_positive ........ passed (0.000 sec)
+% [2-8/8] los_properties:payment_is_positive ........ passed (0.000 sec)
+% [2-9/8] los_properties:payment_is_positive ........ passed (0.000 sec)
+% [2-10/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-11/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-12/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-13/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-14/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-15/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-16/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-17/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-18/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-19/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-20/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-21/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-22/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-23/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-24/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-25/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-26/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-27/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-28/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-29/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-30/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-31/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-32/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-33/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-34/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-35/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-36/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-37/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-38/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-39/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-40/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-41/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-42/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-43/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-44/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-45/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-46/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-47/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-48/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-49/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-50/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-51/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-52/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-53/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-54/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-55/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-56/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-57/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-58/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-59/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-60/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-61/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-62/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-63/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-64/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-65/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-66/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-67/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-68/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-69/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-70/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-71/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-72/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-73/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-74/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-75/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-76/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-77/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-78/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-79/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-80/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-81/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-82/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-83/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-84/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-85/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-86/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-87/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-88/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-89/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-90/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-91/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-92/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-93/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-94/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-95/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-96/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-97/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-98/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-99/8] los_properties:payment_is_positive ....... passed (0.000 sec)
+% [2-100/8] los_properties:payment_is_positive ...... passed (0.000 sec)
+% [3-1/8] los_properties:hi..r_score_better_rate .... passed (0.000 sec)
+% [3-2/8] los_properties:hi..r_score_better_rate .... passed (0.000 sec)
+% [3-3/8] los_properties:hi..r_score_better_rate .... passed (0.000 sec)
+% [3-4/8] los_properties:hi..r_score_better_rate .... passed (0.000 sec)
+% [3-5/8] los_properties:hi..r_score_better_rate .... passed (0.000 sec)
+% [3-6/8] los_properties:hi..r_score_better_rate .... passed (0.000 sec)
+% [3-7/8] los_properties:hi..r_score_better_rate .... passed (0.000 sec)
+% [3-8/8] los_properties:hi..r_score_better_rate .... passed (0.000 sec)
+% [3-9/8] los_properties:hi..r_score_better_rate .... passed (0.000 sec)
+% [3-10/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-11/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-12/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-13/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-14/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-15/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-16/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-17/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-18/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-19/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-20/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-21/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-22/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-23/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-24/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-25/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-26/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-27/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-28/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-29/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-30/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-31/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-32/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-33/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-34/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-35/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-36/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-37/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-38/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-39/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-40/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-41/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-42/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-43/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-44/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-45/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-46/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-47/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-48/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-49/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-50/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-51/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-52/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-53/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-54/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-55/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-56/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-57/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-58/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-59/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-60/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-61/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-62/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-63/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-64/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-65/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-66/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-67/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-68/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-69/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-70/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-71/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-72/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-73/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-74/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-75/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-76/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-77/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-78/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-79/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-80/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-81/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-82/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-83/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-84/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-85/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-86/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-87/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-88/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-89/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-90/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-91/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-92/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-93/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-94/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-95/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-96/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-97/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-98/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-99/8] los_properties:hi..r_score_better_rate ... passed (0.000 sec)
+% [3-100/8] los_properties:hi..r_score_better_rate .. passed (0.000 sec)
+% [4-1/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (1-th forall generator = between(1,100,1)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-2/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (2-th forall generator = between(1,100,2)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-3/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (3-th forall generator = between(1,100,3)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-4/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (4-th forall generator = between(1,100,4)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-5/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (5-th forall generator = between(1,100,5)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-6/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (6-th forall generator = between(1,100,6)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-7/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (7-th forall generator = between(1,100,7)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-8/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (8-th forall generator = between(1,100,8)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-9/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (9-th forall generator = between(1,100,9)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-10/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (10-th forall generator = between(1,100,10)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-11/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (11-th forall generator = between(1,100,11)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-12/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (12-th forall generator = between(1,100,12)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-13/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (13-th forall generator = between(1,100,13)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-14/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (14-th forall generator = between(1,100,14)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-15/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (15-th forall generator = between(1,100,15)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-16/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (16-th forall generator = between(1,100,16)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-17/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (17-th forall generator = between(1,100,17)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-18/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (18-th forall generator = between(1,100,18)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-19/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (19-th forall generator = between(1,100,19)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-20/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (20-th forall generator = between(1,100,20)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-21/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (21-th forall generator = between(1,100,21)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-22/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (22-th forall generator = between(1,100,22)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-23/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (23-th forall generator = between(1,100,23)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-24/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (24-th forall generator = between(1,100,24)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-25/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (25-th forall generator = between(1,100,25)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-26/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (26-th forall generator = between(1,100,26)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-27/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (27-th forall generator = between(1,100,27)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-28/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (28-th forall generator = between(1,100,28)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-29/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (29-th forall generator = between(1,100,29)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-30/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (30-th forall generator = between(1,100,30)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-31/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (31-th forall generator = between(1,100,31)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-32/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (32-th forall generator = between(1,100,32)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-33/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (33-th forall generator = between(1,100,33)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-34/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (34-th forall generator = between(1,100,34)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-35/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (35-th forall generator = between(1,100,35)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-36/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (36-th forall generator = between(1,100,36)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-37/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (37-th forall generator = between(1,100,37)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-38/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (38-th forall generator = between(1,100,38)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-39/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (39-th forall generator = between(1,100,39)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-40/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (40-th forall generator = between(1,100,40)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-41/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (41-th forall generator = between(1,100,41)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-42/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (42-th forall generator = between(1,100,42)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-43/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (43-th forall generator = between(1,100,43)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-44/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (44-th forall generator = between(1,100,44)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-45/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (45-th forall generator = between(1,100,45)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-46/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (46-th forall generator = between(1,100,46)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-47/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (47-th forall generator = between(1,100,47)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-48/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (48-th forall generator = between(1,100,48)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-49/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (49-th forall generator = between(1,100,49)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-50/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (50-th forall generator = between(1,100,50)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-51/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (51-th forall generator = between(1,100,51)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-52/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (52-th forall generator = between(1,100,52)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-53/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (53-th forall generator = between(1,100,53)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-54/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (54-th forall generator = between(1,100,54)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-55/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (55-th forall generator = between(1,100,55)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-56/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (56-th forall generator = between(1,100,56)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-57/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (57-th forall generator = between(1,100,57)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-58/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (58-th forall generator = between(1,100,58)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-59/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (59-th forall generator = between(1,100,59)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-60/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (60-th forall generator = between(1,100,60)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-61/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (61-th forall generator = between(1,100,61)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-62/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (62-th forall generator = between(1,100,62)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-63/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (63-th forall generator = between(1,100,63)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-64/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (64-th forall generator = between(1,100,64)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-65/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (65-th forall generator = between(1,100,65)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-66/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (66-th forall generator = between(1,100,66)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-67/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (67-th forall generator = between(1,100,67)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-68/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (68-th forall generator = between(1,100,68)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-69/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (69-th forall generator = between(1,100,69)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-70/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (70-th forall generator = between(1,100,70)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-71/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (71-th forall generator = between(1,100,71)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-72/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (72-th forall generator = between(1,100,72)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-73/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (73-th forall generator = between(1,100,73)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-74/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (74-th forall generator = between(1,100,74)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-75/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (75-th forall generator = between(1,100,75)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-76/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (76-th forall generator = between(1,100,76)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-77/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (77-th forall generator = between(1,100,77)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-78/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (78-th forall generator = between(1,100,78)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-79/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (79-th forall generator = between(1,100,79)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-80/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (80-th forall generator = between(1,100,80)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-81/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (81-th forall generator = between(1,100,81)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-82/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (82-th forall generator = between(1,100,82)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-83/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (83-th forall generator = between(1,100,83)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-84/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (84-th forall generator = between(1,100,84)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-85/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (85-th forall generator = between(1,100,85)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-86/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (86-th forall generator = between(1,100,86)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-87/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (87-th forall generator = between(1,100,87)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-88/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (88-th forall generator = between(1,100,88)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-89/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (89-th forall generator = between(1,100,89)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-90/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (90-th forall generator = between(1,100,90)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-91/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (91-th forall generator = between(1,100,91)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-92/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (92-th forall generator = between(1,100,92)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-93/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (93-th forall generator = between(1,100,93)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-94/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (94-th forall generator = between(1,100,94)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-95/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (95-th forall generator = between(1,100,95)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-96/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (96-th forall generator = between(1,100,96)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-97/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (97-th forall generator = between(1,100,97)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-98/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (98-th forall generator = between(1,100,98)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-99/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (99-th forall generator = between(1,100,99)): received error: is/2: Arguments are not sufficiently instantiated
+% [4-100/8] los_properties:va..ejects_non_positive .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:101:
+ERROR: [Thread main]     test los_properties:validate_rejects_non_positive (100-th forall generator = between(1,100,100)): received error: is/2: Arguments are not sufficiently instantiated
+% [5-1/8] los_properties:passes_all_implies_each .... passed (0.000 sec)
+% [5-2/8] los_properties:passes_all_implies_each .... passed (0.000 sec)
+% [5-3/8] los_properties:passes_all_implies_each .... passed (0.000 sec)
+% [5-4/8] los_properties:passes_all_implies_each .... passed (0.000 sec)
+% [5-5/8] los_properties:passes_all_implies_each .... passed (0.000 sec)
+% [5-6/8] los_properties:passes_all_implies_each .... passed (0.000 sec)
+% [5-7/8] los_properties:passes_all_implies_each .... passed (0.000 sec)
+% [5-8/8] los_properties:passes_all_implies_each .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:112:
+ERROR: [Thread main]     test los_properties:passes_all_implies_each (8-th forall generator = between(1,100,8)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:underwriting_rules/1
+% [5-9/8] los_properties:passes_all_implies_each .... passed (0.000 sec)
+% [5-10/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-11/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-12/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-13/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-14/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-15/8] los_properties:passes_all_implies_each .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:112:
+ERROR: [Thread main]     test los_properties:passes_all_implies_each (15-th forall generator = between(1,100,15)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:underwriting_rules/1
+% [5-16/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-17/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-18/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-19/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-20/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-21/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-22/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-23/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-24/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-25/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-26/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-27/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-28/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-29/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-30/8] los_properties:passes_all_implies_each .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:112:
+ERROR: [Thread main]     test los_properties:passes_all_implies_each (30-th forall generator = between(1,100,30)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:underwriting_rules/1
+% [5-31/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-32/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-33/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-34/8] los_properties:passes_all_implies_each .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:112:
+ERROR: [Thread main]     test los_properties:passes_all_implies_each (34-th forall generator = between(1,100,34)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:underwriting_rules/1
+% [5-35/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-36/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-37/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-38/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-39/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-40/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-41/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-42/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-43/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-44/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-45/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-46/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-47/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-48/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-49/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-50/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-51/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-52/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-53/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-54/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-55/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-56/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-57/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-58/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-59/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-60/8] los_properties:passes_all_implies_each .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:112:
+ERROR: [Thread main]     test los_properties:passes_all_implies_each (60-th forall generator = between(1,100,60)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:underwriting_rules/1
+% [5-61/8] los_properties:passes_all_implies_each .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:112:
+ERROR: [Thread main]     test los_properties:passes_all_implies_each (61-th forall generator = between(1,100,61)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:underwriting_rules/1
+% [5-62/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-63/8] los_properties:passes_all_implies_each .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:112:
+ERROR: [Thread main]     test los_properties:passes_all_implies_each (63-th forall generator = between(1,100,63)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:underwriting_rules/1
+% [5-64/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-65/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-66/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-67/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-68/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-69/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-70/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-71/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-72/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-73/8] los_properties:passes_all_implies_each .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:112:
+ERROR: [Thread main]     test los_properties:passes_all_implies_each (73-th forall generator = between(1,100,73)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:underwriting_rules/1
+% [5-74/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-75/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-76/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-77/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-78/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-79/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-80/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-81/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-82/8] los_properties:passes_all_implies_each .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:112:
+ERROR: [Thread main]     test los_properties:passes_all_implies_each (82-th forall generator = between(1,100,82)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:underwriting_rules/1
+% [5-83/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-84/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-85/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-86/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-87/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-88/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-89/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-90/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-91/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-92/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-93/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-94/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-95/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-96/8] los_properties:passes_all_implies_each .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:112:
+ERROR: [Thread main]     test los_properties:passes_all_implies_each (96-th forall generator = between(1,100,96)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:underwriting_rules/1
+% [5-97/8] los_properties:passes_all_implies_each .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:112:
+ERROR: [Thread main]     test los_properties:passes_all_implies_each (97-th forall generator = between(1,100,97)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:underwriting_rules/1
+% [5-98/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-99/8] los_properties:passes_all_implies_each ... passed (0.000 sec)
+% [5-100/8] los_properties:passes_all_implies_each .. passed (0.000 sec)
+% [6-1/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (1-th forall generator = between(1,50,1)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-2/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (2-th forall generator = between(1,50,2)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-3/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (3-th forall generator = between(1,50,3)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-4/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (4-th forall generator = between(1,50,4)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-5/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (5-th forall generator = between(1,50,5)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-6/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (6-th forall generator = between(1,50,6)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-7/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (7-th forall generator = between(1,50,7)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-8/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (8-th forall generator = between(1,50,8)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-9/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (9-th forall generator = between(1,50,9)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-10/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (10-th forall generator = between(1,50,10)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-11/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (11-th forall generator = between(1,50,11)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-12/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (12-th forall generator = between(1,50,12)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-13/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (13-th forall generator = between(1,50,13)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-14/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (14-th forall generator = between(1,50,14)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-15/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (15-th forall generator = between(1,50,15)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-16/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (16-th forall generator = between(1,50,16)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-17/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (17-th forall generator = between(1,50,17)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-18/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (18-th forall generator = between(1,50,18)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-19/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (19-th forall generator = between(1,50,19)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-20/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (20-th forall generator = between(1,50,20)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-21/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (21-th forall generator = between(1,50,21)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-22/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (22-th forall generator = between(1,50,22)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-23/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (23-th forall generator = between(1,50,23)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-24/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (24-th forall generator = between(1,50,24)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-25/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (25-th forall generator = between(1,50,25)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-26/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (26-th forall generator = between(1,50,26)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-27/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (27-th forall generator = between(1,50,27)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-28/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (28-th forall generator = between(1,50,28)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-29/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (29-th forall generator = between(1,50,29)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-30/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (30-th forall generator = between(1,50,30)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-31/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (31-th forall generator = between(1,50,31)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-32/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (32-th forall generator = between(1,50,32)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-33/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (33-th forall generator = between(1,50,33)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-34/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (34-th forall generator = between(1,50,34)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-35/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (35-th forall generator = between(1,50,35)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-36/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (36-th forall generator = between(1,50,36)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-37/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (37-th forall generator = between(1,50,37)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-38/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (38-th forall generator = between(1,50,38)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-39/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (39-th forall generator = between(1,50,39)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-40/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (40-th forall generator = between(1,50,40)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-41/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (41-th forall generator = between(1,50,41)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-42/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (42-th forall generator = between(1,50,42)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-43/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (43-th forall generator = between(1,50,43)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-44/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (44-th forall generator = between(1,50,44)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-45/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (45-th forall generator = between(1,50,45)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-46/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (46-th forall generator = between(1,50,46)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-47/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (47-th forall generator = between(1,50,47)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-48/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (48-th forall generator = between(1,50,48)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-49/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (49-th forall generator = between(1,50,49)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [6-50/8] los_properties:un..iting_deterministic .. **FAILED (0.000 sec)
+ERROR: [Thread main] /Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-prolog/spec.pl:123:
+ERROR: [Thread main]     test los_properties:underwriting_deterministic (50-th forall generator = between(1,50,50)): received error: plunit_los_properties:'unit body'/2: Unknown procedure: plunit_los_properties:run_underwriting/4
+% [7-1/8] los_properties:adjust_rate_monotonic ...... passed (0.000 sec)
+% [7-2/8] los_properties:adjust_rate_monotonic ...... passed (0.000 sec)
+% [7-3/8] los_properties:adjust_rate_monotonic ...... passed (0.000 sec)
+% [7-4/8] los_properties:adjust_rate_monotonic ...... passed (0.000 sec)
+% [7-5/8] los_properties:adjust_rate_monotonic ...... passed (0.000 sec)
+% [7-6/8] los_properties:adjust_rate_monotonic ...... passed (0.000 sec)
+% [7-7/8] los_properties:adjust_rate_monotonic ...... passed (0.000 sec)
+% [7-8/8] los_properties:adjust_rate_monotonic ...... passed (0.000 sec)
+% [7-9/8] los_properties:adjust_rate_monotonic ...... passed (0.000 sec)
+% [7-10/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-11/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-12/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-13/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-14/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-15/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-16/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-17/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-18/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-19/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-20/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-21/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-22/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-23/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-24/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-25/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-26/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-27/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-28/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-29/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-30/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-31/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-32/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-33/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-34/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-35/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-36/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-37/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-38/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-39/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-40/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-41/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-42/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-43/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-44/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-45/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-46/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-47/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-48/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-49/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-50/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-51/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-52/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-53/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-54/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-55/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-56/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-57/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-58/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-59/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-60/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-61/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-62/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-63/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-64/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-65/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-66/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-67/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-68/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-69/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-70/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-71/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-72/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-73/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-74/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-75/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-76/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-77/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-78/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-79/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-80/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-81/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-82/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-83/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-84/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-85/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-86/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-87/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-88/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-89/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-90/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-91/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-92/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-93/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-94/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-95/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-96/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-97/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-98/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-99/8] los_properties:adjust_rate_monotonic ..... passed (0.000 sec)
+% [7-100/8] los_properties:adjust_rate_monotonic .... passed (0.000 sec)
+% [8-1/8] los_properties:fu..ine_always_succeeds .... passed (0.000 sec)
+% [8-2/8] los_properties:fu..ine_always_succeeds .... passed (0.000 sec)
+% [8-3/8] los_properties:fu..ine_always_succeeds .... passed (0.000 sec)
+% [8-4/8] los_properties:fu..ine_always_succeeds .... passed (0.000 sec)
+% [8-5/8] los_properties:fu..ine_always_succeeds .... passed (0.000 sec)
+% [8-6/8] los_properties:fu..ine_always_succeeds .... passed (0.000 sec)
+% [8-7/8] los_properties:fu..ine_always_succeeds .... passed (0.000 sec)
+% [8-8/8] los_properties:fu..ine_always_succeeds .... passed (0.000 sec)
+% [8-9/8] los_properties:fu..ine_always_succeeds .... passed (0.000 sec)
+% [8-10/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-11/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-12/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-13/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-14/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-15/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-16/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-17/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-18/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-19/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-20/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-21/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-22/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-23/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-24/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-25/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-26/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-27/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-28/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-29/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-30/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-31/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-32/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-33/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-34/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-35/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-36/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-37/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-38/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-39/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-40/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-41/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-42/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-43/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-44/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-45/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-46/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-47/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-48/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-49/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-50/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-51/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-52/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-53/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-54/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-55/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-56/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-57/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-58/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-59/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-60/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-61/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-62/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-63/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-64/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-65/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-66/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-67/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-68/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-69/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-70/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-71/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-72/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-73/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-74/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-75/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-76/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-77/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-78/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-79/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-80/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-81/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-82/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-83/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-84/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-85/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-86/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-87/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-88/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-89/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-90/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-91/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-92/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-93/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-94/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-95/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-96/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-97/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-98/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-99/8] los_properties:fu..ine_always_succeeds ... passed (0.000 sec)
+% [8-100/8] los_properties:fu..ine_always_succeeds .. passed (0.000 sec)
+% End unit los_properties: **FAILED (0.070 sec CPU)
+ERROR: [Thread main] 161 tests failed
+% 589 tests passed
+% Test run completed in 0.090 seconds (0.070 cpu)
+ERROR: [Thread main] -g run_tests: false

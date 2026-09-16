@@ -1,0 +1,31 @@
+cabal-version:      2.4
+name:               los-haskell
+version:            0.1.0.0
+synopsis:           Loan Originating System — a tour of Haskell FP concepts
+build-type:         Simple
+
+library
+    hs-source-dirs:   src
+    exposed-modules:  Lib
+    build-depends:    base >=4 && <5
+                    , mtl
+                    , containers
+    default-language: GHC2021
+
+executable los-haskell
+    main-is:          Main.hs
+    hs-source-dirs:   app
+    build-depends:    base >=4 && <5
+                    , los-haskell
+                    , mtl
+    default-language: GHC2021
+
+test-suite los-haskell-test
+    type:             exitcode-stdio-1.0
+    main-is:          Spec.hs
+    hs-source-dirs:   test
+    build-depends:    base >=4 && <5
+                    , los-haskell
+                    , mtl
+                    , QuickCheck
+    default-language: GHC2021

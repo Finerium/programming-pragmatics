@@ -1,0 +1,22 @@
+
+=== 1) Pure calculations ===
+  DTI Budi: 0.2500 (25.0%)
+  Cicilan bulanan Rp200jt @ 8% / 24bln: Rp9045458
+
+=== 2) Pure decision pipeline (adjust → decide → notify) ===
+  Budi  : Selamat! Pinjaman Rp200000000 disetujui dengan bunga 1.5%
+  Siti  : Maaf, pengajuan ditolak. Alasan: Tidak memenuhi kriteria underwriting
+
+=== 2b) BONUS: query multi-arah — "siapa yang LAYAK?" ===
+  Lolos: Budi
+  (Prolog mencari sendiri — tidak ada loop eksplisit)
+
+=== 2c) BONUS: aturan yang GAGAL untuk Siti ===
+  Jumlah aturan gagal: 1
+
+=== 3) Validasi dengan either analog (ok/error) ===
+  OK  : approved(200000000,1.5)
+  ERR : Jumlah pinjaman harus positif
+
+=== 4) Stateful underwriting (state di-thread sebagai argumen) ===
+ERROR: [Thread main] -g main: main/0: Unknown procedure: run_underwriting/4

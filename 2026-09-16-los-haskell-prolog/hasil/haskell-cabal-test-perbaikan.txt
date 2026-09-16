@@ -1,0 +1,12 @@
+prop_higherScoreGetsBetterOrEqualRate
++++ OK, passed 100 tests.
+prop_validateRejectsNonPositivePrincipal
+*** Gave up! Passed only 0 tests; 1000 discarded tests.
+prop_passesAllImpliesEachRule
++++ OK, passed 100 tests; 880 discarded.
+prop_underwritingIsDeterministic
++++ OK, passed 100 tests.
+Test suite los-haskell-test: PASS
+Test suite logged to:
+/Users/ghaisan/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/perbaikan/los-haskell/./dist-newstyle/build/aarch64-osx/ghc-9.10.3/los-haskell-0.1.0.0/t/los-haskell-test/test/los-haskell-0.1.0.0-los-haskell-test.log
+1 of 1 test suites (1 of 1 test cases) passed.

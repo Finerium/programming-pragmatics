@@ -22,6 +22,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 |---|---|---|---|
 | [Analisis 5 bahasa dengan ISO/IEC 25010](2026-09-11-tugas-iso25010/) | Jumat 11 Sep 2026, teori | [PDF 17 halaman](2026-09-11-tugas-iso25010/Tugas-ISO25010_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf) | Selesai, belum dikumpulkan. Deadline belum diumumkan |
 | [Install Haskell dan SWI-Prolog](2026-09-16-setup-haskell-prolog/) | Rabu 16 Sep 2026, grup WhatsApp | GHC 9.10.3, cabal 3.18.1.0, SWI-Prolog 10.0.2, plus latihan pertama Haskell dan Prolog | Selesai, persiapan praktikum Kamis 17 Sep 2026 |
+| [Rerun los-haskell dan los-prolog](2026-09-16-los-haskell-prolog/) | Rabu 16 Sep 2026, grup WhatsApp | Rerun kedua proyek, screenshot terminal, dan [`los-hasil-2B-048.zip`](2026-09-16-los-haskell-prolog/los-hasil-2B-048.zip) | Selesai, tiga temuan ditulis di [`catatan.md`](2026-09-16-los-haskell-prolog/catatan.md) |
 
 ## Progres
 
@@ -43,6 +44,13 @@ programming-pragmatics/
 │   ├── latihan-haskell/        baby.hs dan latihan.hs
 │   ├── latihan-prolog/         keluarga.pl
 │   └── hasil/                  output percobaan
+├── 2026-09-16-los-haskell-prolog/
+│   ├── catatan.md              hasil rerun dan tiga temuan
+│   ├── los-haskell/            berkas asli dari Pak Joe
+│   ├── los-prolog/             berkas asli dari Pak Joe
+│   ├── perbaikan/              salinan yang sudah diperbaiki
+│   ├── hasil/, tangkapan/      output teks dan screenshot terminal
+│   └── los-hasil-2B-048.zip    kiriman untuk Pak Joe
 └── materi/          slide dan foto materi dari dosen, tidak ikut di-push
 ```
 

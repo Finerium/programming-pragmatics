@@ -1,0 +1,88 @@
+
+=== 1) Pure calculations ===
+  DTI Budi: 0.2500 (25.0%)
+  Cicilan bulanan Rp200jt @ 8% / 24bln: Rp9045458
+
+=== 2) Pure decision pipeline (adjust → decide → notify) ===
+  Budi  : Selamat! Pinjaman Rp200000000 disetujui dengan bunga 1.5%
+  Siti  : Maaf, pengajuan ditolak. Alasan: Tidak memenuhi kriteria underwriting
+
+=== 2b) BONUS: query multi-arah — "siapa yang LAYAK?" ===
+  Lolos: Budi
+  (Prolog mencari sendiri — tidak ada loop eksplisit)
+
+=== 2c) BONUS: aturan yang GAGAL untuk Siti ===
+  Jumlah aturan gagal: 1
+
+=== 3) Validasi dengan either analog (ok/error) ===
+  OK  : approved(200000000,1.5)
+  ERR : Jumlah pinjaman harus positif
+
+=== 4) Stateful underwriting (state di-thread sebagai argumen) ===
+  Keputusan : approved(200000000,7.75)
+  Sisa kuota: Rp800000000
+  Audit log :\n    - Validasi dasar lolos untuk Budi
+    - Kuota dicadangkan: Rp200000000
+    - Disetujui dengan rate 7.8%
+
+  --- Kasus gagal: melebihi kuota (state TIDAK berubah) ---
+  Ditolak sistem: Plafon kredit hari ini sudah habis
+
+=== 5) Audit trail — multifile dispatch (analog type class) ===
+[info] APPROVED | amount=200000000 | rate=6.8%
+[warning] REJECTED | reason=Skor kredit tidak memenuhi syarat
+[info] APPLICATION | applicant=Budi | principal=200000000 | score=680
+[critical] NOTE | Terdeteksi pola aplikasi yang suspicious dari IP yang sama
+
+  --- Mixed batch, hanya Warning+ yang tampil ---
+[warning] REJECTED | reason=DTI terlalu tinggi
+
+=== 6) BONUS: Meta-programming — rules sebagai data ===
+  Budi lolos aturan: [min_score_620,max_dti_43,max_principal]
+  Siti lolos aturan: [max_dti_43,max_principal]
+
+=== Selesai ===
+
+=== 1) Pure calculations ===
+  DTI Budi: 0.2500 (25.0%)
+  Cicilan bulanan Rp200jt @ 8% / 24bln: Rp9045458
+
+=== 2) Pure decision pipeline (adjust → decide → notify) ===
+  Budi  : Selamat! Pinjaman Rp200000000 disetujui dengan bunga 1.5%
+  Siti  : Maaf, pengajuan ditolak. Alasan: Tidak memenuhi kriteria underwriting
+
+=== 2b) BONUS: query multi-arah — "siapa yang LAYAK?" ===
+  Lolos: Budi
+  (Prolog mencari sendiri — tidak ada loop eksplisit)
+
+=== 2c) BONUS: aturan yang GAGAL untuk Siti ===
+  Jumlah aturan gagal: 1
+
+=== 3) Validasi dengan either analog (ok/error) ===
+  OK  : approved(200000000,1.5)
+  ERR : Jumlah pinjaman harus positif
+
+=== 4) Stateful underwriting (state di-thread sebagai argumen) ===
+  Keputusan : approved(200000000,7.75)
+  Sisa kuota: Rp800000000
+  Audit log :\n    - Validasi dasar lolos untuk Budi
+    - Kuota dicadangkan: Rp200000000
+    - Disetujui dengan rate 7.8%
+
+  --- Kasus gagal: melebihi kuota (state TIDAK berubah) ---
+  Ditolak sistem: Plafon kredit hari ini sudah habis
+
+=== 5) Audit trail — multifile dispatch (analog type class) ===
+[info] APPROVED | amount=200000000 | rate=6.8%
+[warning] REJECTED | reason=Skor kredit tidak memenuhi syarat
+[info] APPLICATION | applicant=Budi | principal=200000000 | score=680
+[critical] NOTE | Terdeteksi pola aplikasi yang suspicious dari IP yang sama
+
+  --- Mixed batch, hanya Warning+ yang tampil ---
+[warning] REJECTED | reason=DTI terlalu tinggi
+
+=== 6) BONUS: Meta-programming — rules sebagai data ===
+  Budi lolos aturan: [min_score_620,max_dti_43,max_principal]
+  Siti lolos aturan: [max_dti_43,max_principal]
+
+=== Selesai ===

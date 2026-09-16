@@ -14,3 +14,6 @@ kelompok.md
 
 # jadwal diskusi berisi nama teman sekelas, disimpan lokal saja
 2026-09-14-jadwal-diskusi-pak-joe/
+
+# hasil build cabal, besar dan bisa dibuat ulang
+dist-newstyle/

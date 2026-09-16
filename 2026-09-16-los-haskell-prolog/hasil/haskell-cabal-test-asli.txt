@@ -1,0 +1,27 @@
+Configuring library for los-haskell-0.1.0.0...
+Preprocessing library for los-haskell-0.1.0.0...
+Building library for los-haskell-0.1.0.0...
+[1 of 1] Compiling Lib              ( src/Lib.hs, dist-newstyle/build/aarch64-osx/ghc-9.10.3/los-haskell-0.1.0.0/build/Lib.o, dist-newstyle/build/aarch64-osx/ghc-9.10.3/los-haskell-0.1.0.0/build/Lib.dyn_o )
+src/Lib.hs:290:10: error: [GHC-93557]
+    • Illegal instance declaration for ‘Auditable String’:
+        All instance types must be of the form (T t1 ... tn)
+        where T is not a synonym.
+    • In the instance declaration for ‘Auditable String’
+    Suggested fix: Perhaps you intended to use TypeSynonymInstances
+    |
+290 | instance Auditable String where
+    |          ^^^^^^^^^^^^^^^^
+
+Downloaded   splitmix-0.1.3.2
+Downloading  random-1.3.1
+Starting     splitmix-0.1.3.2 (lib)
+Building     splitmix-0.1.3.2 (lib)
+Downloaded   random-1.3.1
+Downloading  QuickCheck-2.18.0.0
+Downloaded   QuickCheck-2.18.0.0
+Installing   splitmix-0.1.3.2 (lib)
+Completed    splitmix-0.1.3.2 (lib)
+Error: [Cabal-7125]
+Failed to build los-haskell-0.1.0.0 (which is required by test:los-haskell-test from los-haskell-0.1.0.0).
+
+[exited with code 0]

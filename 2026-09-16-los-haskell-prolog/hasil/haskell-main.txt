@@ -1,0 +1,30 @@
+=== 1) Pure calculations ===
+0.25
+9045458.291236917
+
+=== 2) Pure decision pipeline (adjustRateForRisk . decide . notify) ===
+Selamat! Pinjaman Rp2.0e8 disetujui dengan bunga 1.5%
+Maaf, pengajuan ditolak. Alasan: Tidak memenuhi kriteria underwriting
+
+=== 3) Either-based validation ===
+Approved {approvedAmount = 2.0e8, finalRate = 1.5}
+Validasi gagal: Jumlah pinjaman harus positif
+
+=== 4) Reader + State + Except stack ===
+Approved {approvedAmount = 2.0e8, finalRate = 7.75}
+Sisa kuota: 8.0e8
+Validasi dasar lolos untuk Budi
+Kuota dicadangkan: Rp2.0e8
+Disetujui dengan rate 7.75%
+
+--- Kasus gagal: melebihi kuota, state harus TIDAK berubah ---
+Ditolak sistem: Plafon kredit hari ini sudah habis
+
+=== 5) Type class based audit trail ===
+[Info] APPROVED | amount=2.0e8 | rate=6.75%
+[Warning] REJECTED | reason=Skor kredit tidak memenuhi syarat
+[Info] APPLICATION | applicant=Budi | principal=2.0e8 | score=680
+[Critical] NOTE | Terdeteksi pola aplikasi yang suspicious dari IP yang sama
+
+--- Mixed batch, hanya Warning+ yang tampil ---
+[Warning] REJECTED | reason=DTI terlalu tinggi
