@@ -33,10 +33,14 @@ Penyebabnya `los-haskell.cabal` menulis `default-language: Haskell2010`, sedangk
 Perbaikannya satu baris: ganti `default-language` jadi `GHC2021` (atau tambahkan
 `default-extensions: FlexibleInstances, TypeSynonymInstances`).
 
-Sesudah diperbaiki, `cabal test` lolos: empat property QuickCheck passed. Satu catatan,
-`prop_validateRejectsNonPositivePrincipal` berstatus *Gave up! Passed only 0 tests; 1000
-discarded*, artinya generatornya hampir tidak pernah menghasilkan principal <= 0 sehingga
-property itu praktis tidak pernah teruji.
+Sesudah diperbaiki, `cabal test` lolos dengan status *Test suite los-haskell-test: PASS*.
+Satu catatan, ada property yang berstatus *Gave up! Passed only 0 tests; 1000 discarded tests*,
+yaitu `prop_validateRejectsNonPositivePrincipal`, dan kadang `prop_passesAllImpliesEachRule` ikut
+give up (jumlahnya beda tiap run karena generatornya acak). Artinya generator `Arbitrary
+LoanApplication` hampir tidak pernah menghasilkan kasus yang dibutuhkan, misalnya principal <= 0,
+sehingga property itu praktis tidak pernah benar-benar teruji. Yang perlu diperhatikan, QuickCheck
+tetap menganggap test suite-nya PASS walaupun ada property yang give up, jadi status hijau di sini
+belum tentu berarti semua property sudah teruji.
 
 ## Temuan 2: beberapa predikat tidak diekspor modul `los_lib`
 
