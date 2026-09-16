@@ -86,7 +86,8 @@ property-based testing dibanding contoh yang dipilih tangan.
 los-haskell/      berkas asli dari Pak Joe, ditata ulang jadi src/, app/, test/
 los-prolog/       berkas asli dari Pak Joe
 perbaikan/        salinan yang sudah diperbaiki (cabal + ekspor modul + spec.pl)
+  perubahan.diff  ringkasan semua yang diubah, bisa dibaca sebagai patch
 hasil/            keluaran teks tiap perintah
 tangkapan/        screenshot terminal tiap perintah
-los-hasil-2B-048.zip  isi tangkapan/ dan hasil/ untuk dikirim ke Pak Joe
+los-hasil-2B-048.zip  tangkapan/, hasil/, perbaikan/, dan catatan ini, untuk dikirim ke Pak Joe
 ```

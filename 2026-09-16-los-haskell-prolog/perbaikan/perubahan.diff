@@ -1,0 +1,56 @@
+--- asli/los-haskell/los-haskell.cabal	2026-09-16 07:09:42
++++ perbaikan/los-haskell/los-haskell.cabal	2026-09-16 16:03:55
+@@ -10,7 +10,7 @@
+     build-depends:    base >=4 && <5
+                     , mtl
+                     , containers
+-    default-language: Haskell2010
++    default-language: GHC2021
+ 
+ executable los-haskell
+     main-is:          Main.hs
+@@ -18,7 +18,7 @@
+     build-depends:    base >=4 && <5
+                     , los-haskell
+                     , mtl
+-    default-language: Haskell2010
++    default-language: GHC2021
+ 
+ test-suite los-haskell-test
+     type:             exitcode-stdio-1.0
+@@ -28,4 +28,4 @@
+                     , los-haskell
+                     , mtl
+                     , QuickCheck
+-    default-language: Haskell2010
++    default-language: GHC2021
+--- asli/los-prolog/los_lib.pl	2026-09-16 14:13:09
++++ perbaikan/los-prolog/los_lib.pl	2026-09-16 16:04:36
+@@ -25,6 +25,8 @@
+       % 3. Business rules
+       min_credit_score/2,     % +MinScore, +App
+       max_dti/2,              % +MaxRatio, +App
++      max_principal/2,        % +MaxPrincipal, +App (dipanggil lewat lambda dari luar modul)
++      underwriting_rules/1,   % -Rules (dipakai spec.pl)
+       passes_all_rules/1,     % +App
+       failing_rules/2,        % +App, -List
+ 
+@@ -40,6 +42,8 @@
+ 
+       % 6. Stateful underwriting (pure, threaded state)
+       underwrite_application/5, % +App, +Config, +StateIn, -Decision, -StateOut
++      run_underwriting/4,     % +App, +Config, +StateIn, -Result (dipakai main.pl dan spec.pl)
++      which_rules_pass/2,     % +App, -Rules (dipakai main.pl)
+ 
+       % 7. Audit trail
+       audit_entry/3,          % +Item, -Severity, -Entry
+--- asli/los-prolog/spec.pl	2026-09-16 14:14:16
++++ perbaikan/los-prolog/spec.pl	2026-09-16 16:03:55
+@@ -101,7 +101,6 @@
+ test(validate_rejects_non_positive, [forall(between(1,100,_))]) :-
+     gen_loan_app2(App),
+     App = loan_app(N, _, Rate, Term, Score, D, I),
+-    BadPrincipal is -(random_between(0, 10_000_000, _) -> 1 ; 1),
+     random_between(-10_000_000, 0, BadP),
+     BadApp = loan_app(N, BadP, Rate, Term, Score, D, I),
+     validate_application(BadApp, error(_)).   % harus error
