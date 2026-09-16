@@ -1,0 +1,41 @@
+=== 1) Perhitungan murni ===
+  DTI Budi: 0.25
+  Cicilan Rp200jt @ 8% / 24bln: Rp9,045,458
+
+=== 2) Pipeline keputusan (adjust -> decide -> notify) ===
+  Budi : Selamat! Pinjaman Rp200,000,000 disetujui dengan bunga 1.50%
+  Siti : Maaf, pengajuan ditolak. Alasan: Tidak memenuhi kriteria underwriting
+
+=== 2b) Aturan sebagai data: berapa aturan yang gagal? ===
+  Budi gagal di 0 aturan
+  Siti gagal di 1 aturan
+
+=== 3) Validasi dengan Result (padanan Either) ===
+  OK  : Approved[amount=Rp200,000,000, rate=1.50%]
+  ERR : Jumlah pinjaman harus positif
+
+=== 4) Underwriting dengan config + state (Reader + State + Except) ===
+  Keputusan  : Approved[amount=Rp200,000,000, rate=7.75%]
+  Sisa kuota : Rp800,000,000
+    - Validasi dasar lolos untuk Budi
+    - Kuota dicadangkan: Rp200,000,000
+    - Disetujui dengan rate 7.75%
+
+  --- Kasus gagal: melebihi kuota, state awal harus TIDAK berubah ---
+  Ditolak sistem: Plafon kredit hari ini sudah habis
+  Kuota di state awal tetap: Rp1,000,000,000
+
+=== 5) Audit trail lewat interface (padanan type class) ===
+[Info] APPROVED | amount=Rp200,000,000 | rate=6.75%
+[Warning] REJECTED | reason=Skor kredit tidak memenuhi syarat
+[Info] APPLICATION | applicant=Budi | principal=Rp200,000,000 | score=680
+[Critical] NOTE | Terdeteksi pola aplikasi yang suspicious dari IP yang sama
+
+  --- List campur, hanya Warning ke atas yang tampil ---
+[Warning] REJECTED | reason=DTI terlalu tinggi
+
+=== 6) BONUS: toString yang menyamarkan data pribadi ===
+  LoanApplication{applicant=B***, principal=Rp200,000,000, score=680}
+  (nama pemohon disamarkan di satu tempat, jadi tidak ada pemanggil yang lupa)
+
+=== Selesai ===

@@ -17,3 +17,6 @@ kelompok.md
 
 # hasil build cabal, besar dan bisa dibuat ulang
 dist-newstyle/
+
+# hasil kompilasi java, bisa dibuat ulang dengan javac
+kelas/
