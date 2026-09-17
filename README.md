@@ -11,8 +11,11 @@ Politeknik Negeri Bandung. Semester Ganjil 2026/2027.
 
 | Jenis | Waktu | Ruang | Dosen |
 |---|---|---|---|
-| Praktikum | Kamis 15.40 - 17.20 | H502 Lab. AI | Joe Lian Min, M.Eng. |
-| Teori | Jumat 13.00 - 14.40 | D108 | Rahil Jumiyani, S.ST., M.Sc. |
+| Praktikum | Jumat 13.30 - 15.10 | D108 | Joe Lian Min, M.Eng. |
+| Teori | Jumat 07.50 - 09.30 | D217 | Rahil Jumiyani, S.ST., M.Sc. |
+
+Mulai 21 September 2026 praktikum pindah dari Kamis 15.40 (H502 Lab. AI) ke Jumat 13.30 - 15.10,
+dan teori pindah dari Jumat 13.00 ke Jumat jam ke-2 sampai ke-3, yaitu 07.50 - 09.30.
 
 Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 
