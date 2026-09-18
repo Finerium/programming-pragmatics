@@ -35,6 +35,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 |---|---|---|---|
 | Praktikum 1 | Kamis 10 Sep 2026 | Binding, scope, dan lifetime | Belum ada tugas |
 | Teori 1 | Jumat 11 Sep 2026 | Evolusi bahasa pemrograman, taksonomi bahasa, kriteria evaluasi bahasa, ISO/IEC 25010 | Tugas analisis 5 bahasa, pengumuman tugas akhir DSL |
+| Praktikum 2 | Kamis 17 Sep 2026 | Haskell, mahasiswa disuruh diskusi sendiri antar teman | Tidak ada tugas yang disebut |
 
 ## Struktur folder
 
