@@ -22,8 +22,9 @@ menyebut format, jadi kelima kasus dijawab semua.
 | 4. Sistem pakar rekomendasi | Logic (SWI-Prolog) | [`rekomendasi.pl`](kode/kasus-4/rekomendasi.pl) |
 | 5. Layanan web dengan banyak pengguna | Concurrent dengan operasi asinkron (Java 25, virtual thread) | [`Pesanan.java`](kode/kasus-5/Pesanan.java) |
 
-Contoh struktur di setiap kasus ditulis sebagai kode yang benar-benar dijalankan, dan outputnya
-dicantumkan di PDF. Cara menjalankannya:
+Contoh struktur di setiap kasus ditulis sebagai kode yang benar-benar dijalankan. Kodenya dikutip
+sebagai teks, sedangkan outputnya dipasang sebagai screenshot terminal asli di `tangkapan/`, sama seperti
+laporan praktikum lain. Cara menjalankannya:
 
 ```
 cd kode/kasus-1 && java Toko.java
