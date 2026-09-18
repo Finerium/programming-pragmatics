@@ -14,6 +14,9 @@ menyebut format, jadi kelima kasus dijawab semua.
 
 [`Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf`](Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf), 23 halaman.
 
+Untuk dikumpulkan: [`Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.zip`](Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.zip),
+isinya PDF laporan, folder `kode/`, dan `run.txt` berisi cara menjalankan kodenya.
+
 | Kasus | Pendekatan utama | Contoh kode |
 |---|---|---|
 | 1. Keranjang belanja e-commerce | Object-Oriented, dibantu fungsi murni untuk checkout dan penguncian stok | [`Toko.java`](kode/kasus-1/Toko.java) |
