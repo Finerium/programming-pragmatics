@@ -25,7 +25,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 |---|---|---|---|
 | [Analisis 5 bahasa dengan ISO/IEC 25010](2026-09-11-tugas-iso25010/) | Jumat 11 Sep 2026, teori | [PDF 17 halaman](2026-09-11-tugas-iso25010/Tugas-ISO25010_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf) | Selesai, belum dikumpulkan. Deadline belum diumumkan |
 | [Install Haskell dan SWI-Prolog](2026-09-16-setup-haskell-prolog/) | Rabu 16 Sep 2026, grup WhatsApp | GHC 9.10.3, cabal 3.18.1.0, SWI-Prolog 10.0.2, plus latihan pertama Haskell dan Prolog | Selesai, persiapan praktikum Kamis 17 Sep 2026 |
-| [Rerun los-haskell dan los-prolog](2026-09-16-los-haskell-prolog/) | Rabu 16 Sep 2026, grup WhatsApp | Rerun kedua proyek, screenshot terminal, dan [`los-hasil-2B-048.zip`](2026-09-16-los-haskell-prolog/los-hasil-2B-048.zip) | Selesai, tiga temuan ditulis di [`catatan.md`](2026-09-16-los-haskell-prolog/catatan.md) |
+| [Rerun los-haskell dan los-prolog](2026-09-16-los-haskell-prolog/) | Rabu 16 Sep 2026, grup WhatsApp | Rerun kedua proyek, screenshot terminal, dan [`los-hasil-2B-048.zip`](2026-09-16-los-haskell-prolog/los-hasil-2B-048.zip) | Selesai, tiga temuan ditulis di [`catatan.md`](2026-09-16-los-haskell-prolog/catatan.md), cara menjalankan Haskell-nya di [`run.txt`](2026-09-16-los-haskell-prolog/run.txt) |
 | [los-java, versi Java OO](2026-09-16-los-java/) | Rabu 16 Sep 2026, permintaan Pak Joe di grup | 18 berkas Java tanpa library luar, demo dan property test jalan, [`los-java-2B-048.zip`](2026-09-16-los-java/los-java-2B-048.zip) | Selesai, peta konsep Haskell ke Prolog ke Java ada di [`README.md`](2026-09-16-los-java/README.md) |
 | [los-natural, Prolog dan Java tanpa mengikuti Haskell](2026-09-16-los-natural/) | Rabu 16 Sep 2026, permintaan Pak Joe di grup | Dua proyek yang dirancang dari idiom paradigmanya sendiri, 34 tes plunit dan 27 tes JUnit, [`los-natural-2B-048.zip`](2026-09-16-los-natural/los-natural-2B-048.zip) | Selesai, tabel perbedaan rancangan ada di [`README.md`](2026-09-16-los-natural/README.md) |
 
@@ -62,6 +62,7 @@ programming-pragmatics/
 │   └── los-java-2B-048.zip     kiriman untuk Pak Joe
 ├── 2026-09-16-los-haskell-prolog/
 │   ├── catatan.md              hasil rerun dan tiga temuan
+│   ├── run.txt                 perintah terminal untuk menjalankan los-haskell
 │   ├── los-haskell/            berkas asli dari Pak Joe
 │   ├── los-prolog/             berkas asli dari Pak Joe
 │   ├── perbaikan/              salinan yang sudah diperbaiki

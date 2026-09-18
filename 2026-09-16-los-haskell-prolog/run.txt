@@ -1,0 +1,61 @@
+Cara menjalankan los-haskell
+============================
+
+Butuh GHC 9.10.3 dan cabal 3.18.1.0 (dipasang lewat ghcup).
+Kalau di terminal baru perintah ghci tidak ketemu, jalankan dulu:
+
+    . "$HOME/.ghcup/env"
+
+Ada dua versi:
+  los-haskell/              berkas asli dari Pak Joe
+  perbaikan/los-haskell/    sama, cuma default-language di .cabal diganti GHC2021 supaya cabal build jalan
+
+
+1. Lewat GHCi (cara yang diminta Pak Joe)
+-----------------------------------------
+Bisa dipakai di versi asli maupun versi perbaikan.
+
+    cd ~/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/los-haskell
+
+Demo lengkap (bagian 1 sampai 5):
+
+    ghci -isrc -iapp app/Main.hs
+    ghci> :main
+    ghci> :quit
+
+Coba fungsinya satu per satu:
+
+    ghci -isrc src/Lib.hs
+    ghci> calculateDTI 3000000 12000000
+    ghci> calculateMonthlyPayment 200000000 8.0 24
+    ghci> :type fullPipeline
+    ghci> :quit
+
+Perintah GHCi yang sering dipakai:
+
+    :reload atau :r    muat ulang setelah berkas diedit
+    :type atau :t      lihat tipe ekspresi
+    :info atau :i      info fungsi atau tipe
+    :quit atau :q      keluar
+
+
+2. Langsung jalan tanpa masuk GHCi
+----------------------------------
+Dari folder los-haskell yang sama:
+
+    runghc -isrc -iapp app/Main.hs
+
+
+3. Lewat cabal (hanya versi perbaikan)
+--------------------------------------
+    cd ~/Documents/Kuliah/programming-pragmatics/2026-09-16-los-haskell-prolog/perbaikan/los-haskell
+
+    cabal run los-haskell          jalankan demo
+    cabal test                     jalankan property test QuickCheck
+    cabal repl los-haskell-test    masuk GHCi dengan tesnya, lalu ketik :main untuk lihat hasil tiap property
+
+Di versi asli, cabal build gagal dengan error "Illegal instance declaration for 'Auditable String'"
+karena .cabal-nya masih pakai Haskell2010. Penjelasannya ada di catatan.md bagian Temuan 1.
+
+cabal test tetap PASS walaupun ada property yang tertulis "Gave up!". Itu karena generator
+QuickCheck-nya jarang menghasilkan kasus yang dibutuhkan, bukan karena kodenya error.
