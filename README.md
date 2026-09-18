@@ -28,6 +28,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 | [Rerun los-haskell dan los-prolog](2026-09-16-los-haskell-prolog/) | Rabu 16 Sep 2026, grup WhatsApp | Rerun kedua proyek, screenshot terminal, dan [`los-hasil-2B-048.zip`](2026-09-16-los-haskell-prolog/los-hasil-2B-048.zip) | Selesai, tiga temuan ditulis di [`catatan.md`](2026-09-16-los-haskell-prolog/catatan.md), cara menjalankan Haskell-nya di [`run.txt`](2026-09-16-los-haskell-prolog/run.txt) |
 | [los-java, versi Java OO](2026-09-16-los-java/) | Rabu 16 Sep 2026, permintaan Pak Joe di grup | 18 berkas Java tanpa library luar, demo dan property test jalan, [`los-java-2B-048.zip`](2026-09-16-los-java/los-java-2B-048.zip) | Selesai, peta konsep Haskell ke Prolog ke Java ada di [`README.md`](2026-09-16-los-java/README.md) |
 | [los-natural, Prolog dan Java tanpa mengikuti Haskell](2026-09-16-los-natural/) | Rabu 16 Sep 2026, permintaan Pak Joe di grup | Dua proyek yang dirancang dari idiom paradigmanya sendiri, 34 tes plunit dan 27 tes JUnit, [`los-natural-2B-048.zip`](2026-09-16-los-natural/los-natural-2B-048.zip) | Selesai, tabel perbedaan rancangan ada di [`README.md`](2026-09-16-los-natural/README.md) |
+| [Analisis paradigma untuk 5 studi kasus](2026-09-18-tugas-paradigma-pemrograman/) | Jumat 18 Sep 2026, teori | [PDF 23 halaman](2026-09-18-tugas-paradigma-pemrograman/Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf), tabel 10 aspek per kasus plus kode Java, Haskell, dan Prolog yang dijalankan | Selesai, belum dikumpulkan. Deadline belum diumumkan |
 
 ## Progres
 
@@ -36,6 +37,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 | Praktikum 1 | Kamis 10 Sep 2026 | Binding, scope, dan lifetime | Belum ada tugas |
 | Teori 1 | Jumat 11 Sep 2026 | Evolusi bahasa pemrograman, taksonomi bahasa, kriteria evaluasi bahasa, ISO/IEC 25010 | Tugas analisis 5 bahasa, pengumuman tugas akhir DSL |
 | Praktikum 2 | Kamis 17 Sep 2026 | Haskell, mahasiswa disuruh diskusi sendiri antar teman | Tidak ada tugas yang disebut |
+| Teori 2 | Jumat 18 Sep 2026 | Paradigma bahasa pemrograman (imperative, object-oriented, functional, logic, concurrent, event-driven) dan lima studi kasus | Tugas analisis 10 aspek untuk kelima kasus |
 
 ## Struktur folder
 
@@ -69,6 +71,10 @@ programming-pragmatics/
 │   ├── perbaikan/              salinan yang sudah diperbaiki
 │   ├── hasil/, tangkapan/      output teks dan screenshot terminal
 │   └── los-hasil-2B-048.zip    kiriman untuk Pak Joe
+├── 2026-09-18-tugas-paradigma-pemrograman/
+│   ├── README.md               soal, ringkasan jawaban, cara menjalankan kode
+│   ├── kode/                   contoh kode tiap kasus (Java, Haskell, Prolog)
+│   └── Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf
 └── materi/          slide dan foto materi dari dosen, tidak ikut di-push
 ```
 
