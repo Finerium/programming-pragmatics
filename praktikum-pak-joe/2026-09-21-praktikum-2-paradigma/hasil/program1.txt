@@ -1,0 +1,98 @@
+
+==============================================
+     DAFTAR NILAI - TERTINGGI KE TERENDAH
+==============================================
+NIM       Nama        Nilai       
+----------------------------------------------
+24013     Maya        94.50       
+24026     Zahra       92.60       
+24024     Xena        92.00       
+24008     Hadi        91.60       
+24003     Citra       90.50       
+24030     Tiara       90.00       
+24019     Sinta       89.80       
+24005     Eka         87.70       
+24011     Karin       87.00       
+24021     Ulya        86.60       
+24001     Andi        82.50       
+24028     Rani        82.40       
+24015     Olivia      82.30       
+24017     Qori        82.30       
+24022     Vina        80.30       
+24007     Gina        77.00       
+24018     Raka        76.60       
+24002     Budi        75.00       
+24010     Joko        72.30       
+24025     Yudha       72.30       
+24029     Surya       71.50       
+24012     Luthfi      70.90       
+24014     Nanda       68.30       
+24023     Wahyu       66.10       
+24020     Taufik      65.20       
+24004     Deni        64.50       
+24009     Intan       64.40       
+24027     Bagas       61.40       
+24006     Fajar       59.20       
+24016     Putra       57.40       
+
+====================================
+             MENU FILTER
+====================================
+1. Search berdasarkan NIM
+2. Search berdasarkan Nama
+3. Search berdasarkan Nilai
+4. Kembali
+Pilihan: Masukkan NIM: 
+Hasil pencarian:
+24013     Maya        94.50       
+
+Filter lagi? (1 = Ya, 0 = Tidak): 
+====================================
+             MENU FILTER
+====================================
+1. Search berdasarkan NIM
+2. Search berdasarkan Nama
+3. Search berdasarkan Nilai
+4. Kembali
+Pilihan: Masukkan Nama: 
+Hasil pencarian:
+24013     Maya        94.50       
+
+Filter lagi? (1 = Ya, 0 = Tidak): 
+====================================
+             MENU FILTER
+====================================
+1. Search berdasarkan NIM
+2. Search berdasarkan Nama
+3. Search berdasarkan Nilai
+4. Kembali
+Pilihan: Masukkan nilai minimum: 
+Hasil pencarian:
+24013     Maya        94.50       
+24026     Zahra       92.60       
+24024     Xena        92.00       
+24008     Hadi        91.60       
+24003     Citra       90.50       
+24030     Tiara       90.00       
+24019     Sinta       89.80       
+24005     Eka         87.70       
+24011     Karin       87.00       
+24021     Ulya        86.60       
+24001     Andi        82.50       
+24028     Rani        82.40       
+24015     Olivia      82.30       
+24017     Qori        82.30       
+24022     Vina        80.30       
+Jumlah data: 15
+
+Filter lagi? (1 = Ya, 0 = Tidak): 
+====================================
+             MENU FILTER
+====================================
+1. Search berdasarkan NIM
+2. Search berdasarkan Nama
+3. Search berdasarkan Nilai
+4. Kembali
+Pilihan: 
+Filter lagi? (1 = Ya, 0 = Tidak): 
+Program selesai.

@@ -29,6 +29,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 | [los-java, versi Java OO](praktikum-pak-joe/2026-09-16-los-java/) | Rabu 16 Sep 2026, permintaan Pak Joe di grup | 18 berkas Java tanpa library luar, demo dan property test jalan, [`los-java-2B-048.zip`](praktikum-pak-joe/2026-09-16-los-java/los-java-2B-048.zip) | Selesai, peta konsep Haskell ke Prolog ke Java ada di [`README.md`](praktikum-pak-joe/2026-09-16-los-java/README.md) |
 | [los-natural, Prolog dan Java tanpa mengikuti Haskell](praktikum-pak-joe/2026-09-16-los-natural/) | Rabu 16 Sep 2026, permintaan Pak Joe di grup | Dua proyek yang dirancang dari idiom paradigmanya sendiri, 34 tes plunit dan 27 tes JUnit, [`los-natural-2B-048.zip`](praktikum-pak-joe/2026-09-16-los-natural/los-natural-2B-048.zip) | Selesai, tabel perbedaan rancangan ada di [`README.md`](praktikum-pak-joe/2026-09-16-los-natural/README.md) |
 | [Analisis paradigma untuk 5 studi kasus](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/) | Jumat 18 Sep 2026, teori | [PDF 23 halaman](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf), tabel 10 aspek per kasus plus kode Java, Haskell, dan Prolog dengan screenshot terminal asli, zip kiriman [`Tugas-P2-Paradigma_..._2BD4.zip`](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.zip) | Selesai, belum dikumpulkan. Deadline belum diumumkan |
+| [Praktikum 2: paradigma pemrograman](praktikum-pak-joe/2026-09-21-praktikum-2-paradigma/) | Senin 21 Sep 2026, dokumen Pak Joe | Empat program dilengkapi (C++ imperative, C++ OO, Haskell, SWI-Prolog), [laporan PDF 29 halaman](praktikum-pak-joe/2026-09-21-praktikum-2-paradigma/Praktikum-2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf) berisi tabel pengamatan dan pertanyaan pengayaan, zip kiriman ada di folder yang sama | Selesai, belum dikumpulkan. Deadline belum disebut di dokumen |
 
 ## Progres
 
@@ -38,6 +39,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 | Teori 1 | Jumat 11 Sep 2026 | Evolusi bahasa pemrograman, taksonomi bahasa, kriteria evaluasi bahasa, ISO/IEC 25010 | Tugas analisis 5 bahasa, pengumuman tugas akhir DSL |
 | Praktikum 2 | Kamis 17 Sep 2026 | Haskell, mahasiswa disuruh diskusi sendiri antar teman | Tidak ada tugas yang disebut |
 | Teori 2 | Jumat 18 Sep 2026 | Paradigma bahasa pemrograman (imperative, object-oriented, functional, logic, concurrent, event-driven) dan lima studi kasus | Tugas analisis 10 aspek untuk kelima kasus |
+| Praktikum 2 (dokumen) | Senin 21 Sep 2026 | Paradigma pemrograman lewat satu data nilai mahasiswa, dikerjakan di empat bahasa | Tugas melengkapi kode, mengisi tabel pengamatan, dan menjawab pertanyaan pengayaan |
 
 ## Struktur folder
 

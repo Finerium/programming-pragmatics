@@ -1,0 +1,124 @@
+
+--- 1. mahasiswa("24013", Nama, Tugas, UTS, UAS) ---
+Nama = Maya, Tugas = 95, UTS = 92, UAS = 96
+
+--- 2. nilai_akhir("24013", Nilai) ---
+Nilai = 94.50
+
+--- 3. lulus("24013") ---
+true
+
+--- 4. grade("24013", Grade) ---
+Grade = a
+
+--- 5. grade(NIM, a) ---
+NIM = 24003
+NIM = 24005
+NIM = 24008
+NIM = 24011
+NIM = 24013
+NIM = 24019
+NIM = 24021
+NIM = 24024
+NIM = 24026
+NIM = 24030
+
+--- 6. berprestasi(NIM) ---
+NIM = 24003
+NIM = 24005
+NIM = 24008
+NIM = 24011
+NIM = 24013
+NIM = 24019
+NIM = 24021
+NIM = 24024
+NIM = 24026
+NIM = 24030
+
+--- 7. perlu_bimbingan(NIM) ---
+NIM = 24004
+NIM = 24006
+NIM = 24009
+NIM = 24016
+NIM = 24027
+
+--- 8. unggul(NIM) ---
+NIM = 24003
+NIM = 24008
+NIM = 24013
+NIM = 24024
+NIM = 24026
+NIM = 24030
+
+--- 9. nilai_tinggi(NIM) ---
+NIM = 24001
+NIM = 24003
+NIM = 24005
+NIM = 24008
+NIM = 24011
+NIM = 24013
+NIM = 24015
+NIM = 24017
+NIM = 24019
+NIM = 24021
+NIM = 24022
+NIM = 24024
+NIM = 24026
+NIM = 24028
+NIM = 24030
+
+--- 10. aman(NIM) ---
+NIM = 24001
+NIM = 24002
+NIM = 24003
+NIM = 24005
+NIM = 24007
+NIM = 24008
+NIM = 24011
+NIM = 24013
+NIM = 24015
+NIM = 24017
+NIM = 24018
+NIM = 24019
+NIM = 24021
+NIM = 24022
+NIM = 24024
+NIM = 24026
+NIM = 24028
+NIM = 24030
+
+--- 11. teman_sekelas("24001", X) ---
+X = 24002
+X = 24003
+
+--- 12. grade(NIM, a), unggul(NIM) ---
+NIM = 24003
+NIM = 24008
+NIM = 24013
+NIM = 24024
+NIM = 24026
+NIM = 24030
+
+--- 13. lulus(NIM), \+ grade(NIM, a) ---
+NIM = 24001
+NIM = 24002
+NIM = 24004
+NIM = 24007
+NIM = 24009
+NIM = 24010
+NIM = 24012
+NIM = 24014
+NIM = 24015
+NIM = 24017
+NIM = 24018
+NIM = 24020
+NIM = 24022
+NIM = 24023
+NIM = 24025
+NIM = 24027
+NIM = 24028
+NIM = 24029
+
+--- 14. perlu_bimbingan(NIM), nilai_akhir(NIM, Nilai), Nilai < 60 ---
+NIM = 24006, Nilai = 59.20
+NIM = 24016, Nilai = 57.40

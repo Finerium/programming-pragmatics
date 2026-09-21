@@ -1,0 +1,47 @@
+===========================================================
+KOMPILASI KODE ASLI DARI DOKUMEN (belum dilengkapi)
+Kode disalin apa adanya dari materi/2026-09-21-praktikum-2/isi.txt
+===========================================================
+
+--- Program 1 (C++) : g++ -std=c++17 asli1.cpp ---
+asli/asli1.cpp:101:23: error: use of undeclared identifier 'NIM'
+  101 |             searchNIM(NIM);
+      |                       ^
+1 error generated.
+
+--- Program 2 (C++) : g++ -std=c++17 asli2.cpp ---
+asli/asli2.cpp:199:17: error: use of undeclared identifier 'filterNIM'
+  199 |                 filterNIM(nim);
+      |                 ^
+asli/asli2.cpp:214:17: error: use of undeclared identifier 'filterNama'
+  214 |                 filterNama(nama);
+      |                 ^
+asli/asli2.cpp:229:17: error: use of undeclared identifier 'filterNilai'
+  229 |                 filterNilai(nilai);
+      |                 ^
+3 errors generated.
+
+--- Program 3 (Haskell) : runghc asli3.hs ---
+asli/asli3.hs:174:10: error: [GHC-88464]
+    Variable not in scope:
+      searchNIM :: String -> [Mahasiswa] -> t3 Mahasiswa
+    |
+174 |         (searchNIM "24013" mahasiswa)
+    |          ^^^^^^^^^
+
+asli/asli3.hs:184:10: error: [GHC-88464]
+    Variable not in scope:
+      searchNama :: String -> [Mahasiswa] -> t2 Mahasiswa
+    |
+184 |         (searchNama "Maya" mahasiswa)
+    |          ^^^^^^^^^^
+
+asli/asli3.hs:194:10: error: [GHC-88464]
+    Variable not in scope:
+      filterNilai :: t0 -> [Mahasiswa] -> t1 Mahasiswa
+    |
+194 |         (filterNilai 80 mahasiswa)
+    |          ^^^^^^^^^^^
+
+
+--- Program 4 (Prolog) : tidak error, hanya query 13 dan 14 masih kosong ---

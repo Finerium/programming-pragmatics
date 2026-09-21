@@ -20,3 +20,6 @@ dist-newstyle/
 
 # hasil kompilasi java, bisa dibuat ulang dengan javac
 kelas/
+
+# hasil kompilasi C++ dan Haskell, bisa dibuat ulang
+build/

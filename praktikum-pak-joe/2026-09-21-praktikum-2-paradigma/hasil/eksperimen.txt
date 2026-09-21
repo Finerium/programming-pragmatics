@@ -1,0 +1,128 @@
+===========================================================
+EKSPERIMEN 1a - SCOPE PROGRAM 1 (kode/eksperimen/p1-scope.cpp)
+perintah: g++ -std=c++17 kode/eksperimen/p1-scope.cpp -o /tmp/e1a
+===========================================================
+kode/eksperimen/p1-scope.cpp:18:13: error: use of undeclared identifier 'i'
+   18 |     cout << i << endl;          // percobaan 1: i sudah keluar scope
+      |             ^
+kode/eksperimen/p1-scope.cpp:19:13: error: use of undeclared identifier 'penghitung'
+   19 |     cout << penghitung << endl; // percobaan 2: milik hitungNilai()
+      |             ^
+2 errors generated.
+
+===========================================================
+EKSPERIMEN 1b - LIFETIME PROGRAM 1 (kode/eksperimen/p1-lifetime.cpp)
+perintah: g++ -std=c++17 kode/eksperimen/p1-lifetime.cpp -o /tmp/e1b
+===========================================================
+kode/eksperimen/p1-lifetime.cpp:17:43: error: use of undeclared identifier 'temp'
+   17 |     cout << "di luar blok if, temp = " << temp << endl; // sengaja error
+      |                                           ^
+1 error generated.
+
+===========================================================
+EKSPERIMEN 1c - STATE PROGRAM 1 (kode/eksperimen/p1-state.cpp)
+===========================================================
+[1] STATE SEBELUM hitungNilai()
+    mahasiswa[0]  Andi nilaiAkhir = 0.00
+    mahasiswa[12] Maya nilaiAkhir = 0.00
+
+[2] STATE SESUDAH hitungNilai()
+    mahasiswa[0]  Andi nilaiAkhir = 82.50
+    mahasiswa[12] Maya nilaiAkhir = 94.50
+
+[3] POSISI SEBELUM sortNilai()
+    Andi ada di indeks 0
+    Maya ada di indeks 12
+
+[4] POSISI SESUDAH sortNilai()
+    Andi ada di indeks 10
+    Maya ada di indeks 0
+
+[5] URUTAN EKSEKUSI for (int i = 0; i < 3; i++)
+    body jalan dengan i = 0
+    body jalan dengan i = 1
+    body jalan dengan i = 2
+
+[6] SORT DULU BARU HITUNG (urutan statement ditukar)
+    indeks 0 = Putra nilai 57.40
+    indeks 1 = Maya nilai 94.50
+    indeks 2 = Andi nilai 82.50
+
+===========================================================
+EKSPERIMEN 2a - SCOPE PROGRAM 2 (kode/eksperimen/p2-scope.cpp)
+===========================================================
+kode/eksperimen/p2-scope.cpp:23:15: error: 'nim' is a private member of 'Mahasiswa'
+   23 |     cout << m.nim << endl;        // langsung, sengaja error
+      |               ^
+kode/eksperimen/p2-scope.cpp:9:12: note: declared private here
+    9 |     string nim;
+      |            ^
+1 error generated.
+
+===========================================================
+EKSPERIMEN 2b - STATE DAN LIFETIME PROGRAM 2 (kode/eksperimen/p2-state.cpp)
+===========================================================
+[1] MEMBUAT 30 OBJEK (constructor dimatikan outputnya untuk 30 data)
+    alamat objek 0  = 0x104a118f0 nilai = 82.50
+    alamat objek 12 = 0x104a130c0 nilai = 94.50
+    alamat objek 29 = 0x104a13500 nilai = 90.00
+
+[2] MENGUBAH UAS OBJEK 12 SAJA LALU hitungNilai() ULANG
+    objek 0  nilai = 82.50
+    objek 12 nilai = 76.10
+    objek 29 nilai = 90.00
+
+[3] LIFETIME OBJEK STACK
+  constructor objek 99001
+  masih di dalam blok, nilai = 70.00
+  destructor objek 99001
+  sudah keluar blok
+
+[4] LIFETIME OBJEK new TANPA delete
+  constructor objek 99002
+  nilai = 70.00
+  blok selesai, destructor tidak dipanggil
+
+[5] LIFETIME OBJEK new DENGAN delete
+  constructor objek 99003
+  nilai = 70.00
+  destructor objek 99003
+
+[6] PROGRAM SELESAI, 30 objek new juga tidak dihancurkan
+
+===========================================================
+EKSPERIMEN 3a - SCOPE PROGRAM 3 (kode/eksperimen/p3-scope.hs)
+perintah: runghc kode/eksperimen/p3-scope.hs
+===========================================================
+kode/eksperimen/p3-scope.hs:14:19: error: [GHC-88464]
+    Variable not in scope: m :: Mahasiswa
+   |
+14 |     putStrLn (nim m)   -- sengaja error, m hanya hidup di dalam lambda
+   |                   ^
+
+
+===========================================================
+EKSPERIMEN 3b - IMMUTABILITY PROGRAM 3 (kode/eksperimen/p3-state.hs)
+===========================================================
+[1] LIST AWAL
+["24001","24013","24016","24006"]
+panjang = 4
+
+[2] HASIL filter nilai >= 80
+["24001","24013"]
+
+[3] LIST AWAL DICETAK LAGI SESUDAH filter
+["24001","24013","24016","24006"]
+panjang = 4
+
+[4] nilaiAkhir DIPANGGIL DUA KALI UNTUK DATA YANG SAMA
+94.5
+94.5
+uas Maya tetap = 96.0
+
+[5] KOMPOSISI filter LALU map
+[82.5,94.5]
+
+[6] SORT MENGHASILKAN LIST BARU
+["24013","24001","24006","24016"]
+["24001","24013","24016","24006"]

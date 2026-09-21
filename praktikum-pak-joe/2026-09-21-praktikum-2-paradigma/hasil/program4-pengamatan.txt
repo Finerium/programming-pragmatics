@@ -1,0 +1,43 @@
+
+--- BINDING - mahasiswa("24013", Nama, Tugas, UTS, UAS) ---
+Nama = Maya
+Tugas = 95
+UTS = 92
+UAS = 96
+
+--- UNIFICATION - mahasiswa(NIM, "Maya", Tugas, UTS, UAS) ---
+NIM = 24013
+Tugas = 95
+UTS = 92
+UAS = 96
+
+--- STATE - jumlah fakta mahasiswa sebelum query ---
+jumlah fakta = 30
+
+--- BACKTRACKING - grade(NIM, a) solusi demi solusi ---
+solusi ke-1 : NIM = 24003
+solusi ke-2 : NIM = 24005
+solusi ke-3 : NIM = 24008
+solusi ke-4 : NIM = 24011
+solusi ke-5 : NIM = 24013
+solusi ke-6 : NIM = 24019
+solusi ke-7 : NIM = 24021
+solusi ke-8 : NIM = 24024
+solusi ke-9 : NIM = 24026
+solusi ke-10 : NIM = 24030
+total solusi = 10
+
+--- STATE - jumlah fakta mahasiswa sesudah query ---
+jumlah fakta = 30
+
+--- INFERENCE - penelusuran grade("24013", a) ---
+fakta   : mahasiswa("24013", _, 95, 92, 96)
+rule 1  : nilai_akhir("24013", 94.50)
+rule 3  : 94.50 >= 85 terpenuhi, grade = a
+
+--- SEARCH - urutan solusi perlu_bimbingan(NIM) ---
+solusi ke-1 : NIM = 24004
+solusi ke-2 : NIM = 24006
+solusi ke-3 : NIM = 24009
+solusi ke-4 : NIM = 24016
+solusi ke-5 : NIM = 24027

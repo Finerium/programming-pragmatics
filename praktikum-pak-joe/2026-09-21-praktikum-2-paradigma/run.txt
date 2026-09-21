@@ -1,0 +1,107 @@
+PRAKTIKUM 2 - PARADIGMA PEMROGRAMAN
+Programming Language Pragmatics Praktik 2026
+Ghaisan Khoirul Badruzaman / 251524048 / 2B-D4 Teknik Informatika
+
+Semua perintah dijalankan dari folder ini:
+cd ~/Documents/Kuliah/programming-pragmatics/praktikum-pak-joe/2026-09-21-praktikum-2-paradigma
+
+Toolchain yang dipakai:
+  g++      Apple clang version 17.0.0
+  ghc      9.10.3 (lewat ghcup)
+  swipl    SWI-Prolog 10.0.2
+
+Buat dulu folder untuk hasil kompilasi:
+mkdir -p build
+
+
+===========================================================
+PROGRAM 1 - IMPERATIVE (C++)
+===========================================================
+g++ -std=c++17 -o build/program1 kode/program1-imperative/program1.cpp
+
+Jalan interaktif:
+  ./build/program1
+
+Jalan dengan input terarah supaya keluarannya bisa direkam:
+  ./build/program1 < kode/program1-imperative/input-demo.txt > hasil/program1.txt
+
+
+===========================================================
+PROGRAM 2 - OBJECT ORIENTED (C++)
+===========================================================
+g++ -std=c++17 -o build/program2 kode/program2-oo/program2.cpp
+
+Jalan interaktif:
+  ./build/program2
+
+Jalan dengan input terarah:
+  ./build/program2 < kode/program2-oo/input-demo.txt > hasil/program2.txt
+
+
+===========================================================
+PROGRAM 3 - FUNCTIONAL (Haskell)
+===========================================================
+Aktifkan dulu ghcup:
+  . "$HOME/.ghcup/env"
+
+Cara cepat tanpa file sisa:
+  runghc kode/program3-haskell/program3.hs > hasil/program3.txt
+
+Kalau mau dikompilasi jadi binary:
+  ghc -o build/program3 -outputdir build/hs kode/program3-haskell/program3.hs
+  ./build/program3 > hasil/program3.txt
+
+
+===========================================================
+PROGRAM 4 - LOGIC PROGRAMMING (SWI-Prolog)
+===========================================================
+Menjalankan ke-14 query sekaligus:
+  swipl -q -g demo -t halt kode/program4-prolog/program4.pl > hasil/program4.txt
+
+Menjalankan demo untuk tabel pengamatan:
+  swipl -q -g demo_pengamatan -t halt kode/program4-prolog/program4.pl > hasil/program4-pengamatan.txt
+
+Kalau mau dicoba manual satu per satu:
+  swipl kode/program4-prolog/program4.pl
+  ?- grade(NIM, a).
+  tekan ; untuk solusi berikutnya, tekan . untuk berhenti
+  ?- halt.
+
+
+===========================================================
+EKSPERIMEN UNTUK TABEL PENGAMATAN
+===========================================================
+Sebagian baris tabel meminta kita mencoba hal yang memang gagal dikompilasi,
+jadi tiga berkas di bawah ini memang sengaja error.
+
+  g++ -std=c++17 kode/eksperimen/p1-scope.cpp -o build/e1a
+  g++ -std=c++17 kode/eksperimen/p1-lifetime.cpp -o build/e1b
+  g++ -std=c++17 kode/eksperimen/p1-state.cpp -o build/e1c && ./build/e1c
+  g++ -std=c++17 kode/eksperimen/p2-scope.cpp -o build/e2a
+  g++ -std=c++17 kode/eksperimen/p2-state.cpp -o build/e2b && ./build/e2b
+  runghc kode/eksperimen/p3-scope.hs
+  runghc kode/eksperimen/p3-state.hs
+
+Semua keluarannya digabung di hasil/eksperimen.txt.
+
+
+===========================================================
+KOMPILASI KODE ASLI DARI DOKUMEN
+===========================================================
+Pesan error kode dosen yang belum dilengkapi direkam di hasil/kompilasi-asli.txt.
+Caranya: potongan kode disalin apa adanya dari
+materi/2026-09-21-praktikum-2/isi.txt lalu dikompilasi dengan
+  g++ -std=c++17 -fsyntax-only <berkas>
+  runghc <berkas>
+
+
+===========================================================
+DAFTAR BERKAS KELUARAN
+===========================================================
+hasil/program1.txt             keluaran Program 1
+hasil/program2.txt             keluaran Program 2
+hasil/program3.txt             keluaran Program 3
+hasil/program4.txt             keluaran 14 query Program 4
+hasil/program4-pengamatan.txt  demo khusus tabel pengamatan Program 4
+hasil/eksperimen.txt           keluaran eksperimen scope, lifetime, state
+hasil/kompilasi-asli.txt       error kode dosen sebelum dilengkapi

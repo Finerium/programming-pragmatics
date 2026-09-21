@@ -1,0 +1,61 @@
+
+=== NILAI TERTINGGI -> TERENDAH ===
+24013 | Maya | Nilai: 94.5 | Grade: A
+24026 | Zahra | Nilai: 92.600006 | Grade: A
+24024 | Xena | Nilai: 92.0 | Grade: A
+24008 | Hadi | Nilai: 91.600006 | Grade: A
+24003 | Citra | Nilai: 90.5 | Grade: A
+24030 | Tiara | Nilai: 90.0 | Grade: A
+24019 | Sinta | Nilai: 89.8 | Grade: A
+24005 | Eka | Nilai: 87.700005 | Grade: A
+24011 | Karin | Nilai: 87.0 | Grade: A
+24021 | Ulya | Nilai: 86.600006 | Grade: A
+24001 | Andi | Nilai: 82.5 | Grade: B
+24028 | Rani | Nilai: 82.4 | Grade: B
+24015 | Olivia | Nilai: 82.3 | Grade: B
+24017 | Qori | Nilai: 82.3 | Grade: B
+24022 | Vina | Nilai: 80.3 | Grade: B
+24007 | Gina | Nilai: 77.0 | Grade: B
+24018 | Raka | Nilai: 76.6 | Grade: B
+24002 | Budi | Nilai: 75.0 | Grade: B
+24010 | Joko | Nilai: 72.3 | Grade: C
+24025 | Yudha | Nilai: 72.3 | Grade: C
+24029 | Surya | Nilai: 71.5 | Grade: C
+24012 | Luthfi | Nilai: 70.9 | Grade: C
+24014 | Nanda | Nilai: 68.3 | Grade: C
+24023 | Wahyu | Nilai: 66.100006 | Grade: C
+24020 | Taufik | Nilai: 65.2 | Grade: C
+24004 | Deni | Nilai: 64.5 | Grade: D
+24009 | Intan | Nilai: 64.4 | Grade: D
+24027 | Bagas | Nilai: 61.4 | Grade: D
+24006 | Fajar | Nilai: 59.2 | Grade: D
+24016 | Putra | Nilai: 57.4 | Grade: D
+
+=== SEARCH NIM: 24013 ===
+24013 | Maya | Nilai: 94.5 | Grade: A
+
+=== SEARCH NAMA: Maya ===
+24013 | Maya | Nilai: 94.5 | Grade: A
+
+=== NILAI >= 80 ===
+24001 | Andi | Nilai: 82.5 | Grade: B
+24003 | Citra | Nilai: 90.5 | Grade: A
+24005 | Eka | Nilai: 87.700005 | Grade: A
+24008 | Hadi | Nilai: 91.600006 | Grade: A
+24011 | Karin | Nilai: 87.0 | Grade: A
+24013 | Maya | Nilai: 94.5 | Grade: A
+24015 | Olivia | Nilai: 82.3 | Grade: B
+24017 | Qori | Nilai: 82.3 | Grade: B
+24019 | Sinta | Nilai: 89.8 | Grade: A
+24021 | Ulya | Nilai: 86.600006 | Grade: A
+24022 | Vina | Nilai: 80.3 | Grade: B
+24024 | Xena | Nilai: 92.0 | Grade: A
+24026 | Zahra | Nilai: 92.600006 | Grade: A
+24028 | Rani | Nilai: 82.4 | Grade: B
+24030 | Tiara | Nilai: 90.0 | Grade: A
+
+=== SEMUA NILAI AKHIR ===
+[82.5,75.0,90.5,64.5,87.700005,59.2,77.0,91.600006,64.4,72.3,87.0,70.9,94.5,68.3,82.3,57.4,82.3,76.6,89.8,65.2,86.600006,80.3,66.100006,92.0,72.3,92.600006,61.4,82.4,71.5,90.0]
+
+=== RATA-RATA KELAS ===
+77.80667
