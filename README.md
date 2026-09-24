@@ -23,12 +23,12 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 
 | Tugas | Diberikan | Hasil | Status |
 |---|---|---|---|
-| [Analisis 5 bahasa dengan ISO/IEC 25010](teori-bu-rahil/2026-09-11-tugas-iso25010/) | Jumat 11 Sep 2026, teori | [PDF 17 halaman](teori-bu-rahil/2026-09-11-tugas-iso25010/Tugas-ISO25010_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf) | Selesai, belum dikumpulkan. Deadline belum diumumkan |
+| [Analisis 5 bahasa dengan ISO/IEC 25010](teori-bu-rahil/2026-09-11-tugas-iso25010/) | Jumat 11 Sep 2026, teori | [PDF 17 halaman](teori-bu-rahil/2026-09-11-tugas-iso25010/PLP_P1_TE_2B_048.pdf) | Selesai, belum dikumpulkan. Deadline belum diumumkan |
 | [Install Haskell dan SWI-Prolog](praktikum-pak-joe/2026-09-16-setup-haskell-prolog/) | Rabu 16 Sep 2026, grup WhatsApp | GHC 9.10.3, cabal 3.18.1.0, SWI-Prolog 10.0.2, plus latihan pertama Haskell dan Prolog | Selesai, persiapan praktikum Kamis 17 Sep 2026 |
 | [Rerun los-haskell dan los-prolog](praktikum-pak-joe/2026-09-16-los-haskell-prolog/) | Rabu 16 Sep 2026, grup WhatsApp | Rerun kedua proyek, screenshot terminal, dan [`los-hasil-2B-048.zip`](praktikum-pak-joe/2026-09-16-los-haskell-prolog/los-hasil-2B-048.zip) | Selesai, tiga temuan ditulis di [`catatan.md`](praktikum-pak-joe/2026-09-16-los-haskell-prolog/catatan.md), cara menjalankan Haskell-nya di [`run.txt`](praktikum-pak-joe/2026-09-16-los-haskell-prolog/run.txt) |
 | [los-java, versi Java OO](praktikum-pak-joe/2026-09-16-los-java/) | Rabu 16 Sep 2026, permintaan Pak Joe di grup | 18 berkas Java tanpa library luar, demo dan property test jalan, [`los-java-2B-048.zip`](praktikum-pak-joe/2026-09-16-los-java/los-java-2B-048.zip) | Selesai, peta konsep Haskell ke Prolog ke Java ada di [`README.md`](praktikum-pak-joe/2026-09-16-los-java/README.md) |
 | [los-natural, Prolog dan Java tanpa mengikuti Haskell](praktikum-pak-joe/2026-09-16-los-natural/) | Rabu 16 Sep 2026, permintaan Pak Joe di grup | Dua proyek yang dirancang dari idiom paradigmanya sendiri, 34 tes plunit dan 27 tes JUnit, [`los-natural-2B-048.zip`](praktikum-pak-joe/2026-09-16-los-natural/los-natural-2B-048.zip) | Selesai, tabel perbedaan rancangan ada di [`README.md`](praktikum-pak-joe/2026-09-16-los-natural/README.md) |
-| [Analisis paradigma untuk 5 studi kasus](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/) | Jumat 18 Sep 2026, teori | [PDF 23 halaman](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf), tabel 10 aspek per kasus plus kode Java, Haskell, dan Prolog dengan screenshot terminal asli, zip kiriman [`Tugas-P2-Paradigma_..._2BD4.zip`](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.zip) | Selesai, belum dikumpulkan. Deadline belum diumumkan |
+| [Analisis paradigma untuk 5 studi kasus](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/) | Jumat 18 Sep 2026, teori | [PDF 23 halaman](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/PLP_P2_TE_2B_048.pdf), tabel 10 aspek per kasus plus kode Java, Haskell, dan Prolog dengan screenshot terminal asli, zip kiriman [`Tugas-P2-Paradigma_..._2BD4.zip`](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.zip) | Selesai, belum dikumpulkan. Deadline belum diumumkan |
 | [Praktikum 2: paradigma pemrograman](praktikum-pak-joe/2026-09-21-praktikum-2-paradigma/) | Senin 21 Sep 2026, dokumen Pak Joe | Empat program dilengkapi (C++ imperative, C++ OO, Haskell, SWI-Prolog), [laporan PDF 29 halaman](praktikum-pak-joe/2026-09-21-praktikum-2-paradigma/Praktikum-2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf) berisi tabel pengamatan dan pertanyaan pengayaan, zip kiriman ada di folder yang sama | Selesai, belum dikumpulkan. Deadline belum disebut di dokumen |
 | [Pertemuan 3: install dan coba fp-ssc-course](praktikum-pak-joe/2026-09-24-pertemuan-3-fp-ssc/) | Kamis 24 Sep 2026, pesan Pak Joe | Coursier, sbt, scala-cli, JDK 17, dan JAX terpasang; contoh Scala, Haskell, dan JAX jalan (19 tes sbt lolos), latihan sbt log-factorial, 8 screenshot terminal, urutan baca dan catatan Intro | Selesai. Dex tidak bisa dipasang karena `llvm@12` sudah tidak ada di Homebrew |
 
@@ -53,13 +53,14 @@ programming-pragmatics/
 ├── teori-bu-rahil/
 │   ├── 2026-09-11-tugas-iso25010/
 │   │   ├── README.md
-│   │   └── Tugas-ISO25010_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf
+│   │   └── PLP_P1_TE_2B_048.pdf
 │   └── 2026-09-18-tugas-paradigma-pemrograman/
 │       ├── README.md               soal, ringkasan jawaban, cara menjalankan kode
 │       ├── kode/                   contoh kode tiap kasus (Java, Haskell, Prolog)
 │       ├── tangkapan/              screenshot terminal output tiap kasus
-│       ├── Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf
-│       └── Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.zip
+│       ├── PLP_P2_TE_2B_048.pdf
+│       ├── Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.zip
+│       └── Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4/   isi zip yang sudah diekstrak
 ├── praktikum-pak-joe/
 │   ├── 2026-09-16-setup-haskell-prolog/
 │   │   ├── catatan.md              cara install dan cara menjalankan

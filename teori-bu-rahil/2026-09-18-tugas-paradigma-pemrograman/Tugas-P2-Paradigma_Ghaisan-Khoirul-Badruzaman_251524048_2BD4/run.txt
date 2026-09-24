@@ -1,0 +1,15 @@
+Tugas Pertemuan 2 Programming Language Pragmatics
+Ghaisan Khoirul Badruzaman / 251524048 / 2B-D4
+
+Isi:
+  Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf   laporan
+  kode/kasus-1 sampai kode/kasus-5                                   contoh kode tiap kasus, sama dengan di laporan
+
+Cara menjalankan (dari folder ini):
+  cd kode/kasus-1 && java Toko.java          (JDK 21 ke atas)
+  cd kode/kasus-2 && java RumahSakit.java
+  cd kode/kasus-3 && runghc Penjualan.hs     (GHC 9.10)
+  cd kode/kasus-4 && swipl rekomendasi.pl    (SWI-Prolog 10)
+  cd kode/kasus-5 && java Pesanan.java
+
+Catatan: output kasus 1 bergantung pada tanggal, karena promo MERDEKA17 di contoh berakhir 31 Agustus 2026.

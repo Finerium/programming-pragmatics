@@ -11,7 +11,7 @@ Gambar 1 di slide adalah model kualitas produk ISO/IEC 25010:2023 dengan 9 karak
 
 ## Hasil
 
-[`Tugas-ISO25010_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf`](Tugas-ISO25010_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf), 17 halaman.
+[`PLP_P1_TE_2B_048.pdf`](PLP_P1_TE_2B_048.pdf), 17 halaman.
 
 Bahasa yang dipilih: C, Java, Python, JavaScript, dan SQL. Kelimanya disebut langsung di slide 6
 (level abstraksi) dan slide 9 (paradigma).

@@ -12,7 +12,7 @@ menyebut format, jadi kelima kasus dijawab semua.
 
 ## Hasil
 
-[`Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf`](Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf), 23 halaman.
+[`PLP_P2_TE_2B_048.pdf`](PLP_P2_TE_2B_048.pdf), 23 halaman.
 
 Untuk dikumpulkan: [`Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.zip`](Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.zip),
 isinya PDF laporan, folder `kode/`, dan `run.txt` berisi cara menjalankan kodenya.
