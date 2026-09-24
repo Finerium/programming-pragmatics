@@ -30,6 +30,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 | [los-natural, Prolog dan Java tanpa mengikuti Haskell](praktikum-pak-joe/2026-09-16-los-natural/) | Rabu 16 Sep 2026, permintaan Pak Joe di grup | Dua proyek yang dirancang dari idiom paradigmanya sendiri, 34 tes plunit dan 27 tes JUnit, [`los-natural-2B-048.zip`](praktikum-pak-joe/2026-09-16-los-natural/los-natural-2B-048.zip) | Selesai, tabel perbedaan rancangan ada di [`README.md`](praktikum-pak-joe/2026-09-16-los-natural/README.md) |
 | [Analisis paradigma untuk 5 studi kasus](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/) | Jumat 18 Sep 2026, teori | [PDF 23 halaman](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf), tabel 10 aspek per kasus plus kode Java, Haskell, dan Prolog dengan screenshot terminal asli, zip kiriman [`Tugas-P2-Paradigma_..._2BD4.zip`](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.zip) | Selesai, belum dikumpulkan. Deadline belum diumumkan |
 | [Praktikum 2: paradigma pemrograman](praktikum-pak-joe/2026-09-21-praktikum-2-paradigma/) | Senin 21 Sep 2026, dokumen Pak Joe | Empat program dilengkapi (C++ imperative, C++ OO, Haskell, SWI-Prolog), [laporan PDF 29 halaman](praktikum-pak-joe/2026-09-21-praktikum-2-paradigma/Praktikum-2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf) berisi tabel pengamatan dan pertanyaan pengayaan, zip kiriman ada di folder yang sama | Selesai, belum dikumpulkan. Deadline belum disebut di dokumen |
+| [Pertemuan 3: install dan coba fp-ssc-course](praktikum-pak-joe/2026-09-24-pertemuan-3-fp-ssc/) | Kamis 24 Sep 2026, pesan Pak Joe | Coursier, sbt, scala-cli, JDK 17, dan JAX terpasang; contoh Scala, Haskell, dan JAX jalan (19 tes sbt lolos), latihan sbt log-factorial, 8 screenshot terminal, urutan baca dan catatan Intro | Selesai. Dex tidak bisa dipasang karena `llvm@12` sudah tidak ada di Homebrew |
 
 ## Progres
 
@@ -40,6 +41,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 | Praktikum 2 | Kamis 17 Sep 2026 | Haskell, mahasiswa disuruh diskusi sendiri antar teman | Tidak ada tugas yang disebut |
 | Teori 2 | Jumat 18 Sep 2026 | Paradigma bahasa pemrograman (imperative, object-oriented, functional, logic, concurrent, event-driven) dan lima studi kasus | Tugas analisis 10 aspek untuk kelima kasus |
 | Praktikum 2 (dokumen) | Senin 21 Sep 2026 | Paradigma pemrograman lewat satu data nilai mahasiswa, dikerjakan di empat bahasa | Tugas melengkapi kode, mengisi tabel pengamatan, dan menjawab pertanyaan pengayaan |
+| Praktikum 3 | Kamis 24 Sep 2026 (pesan) | Kursus fp-ssc-course: functional programming untuk komputasi statistik di Scala, Haskell, dan JAX | Install, coba, dan mulai baca. Tidak ada tugas tertulis |
 
 ## Struktur folder
 
@@ -82,14 +84,19 @@ programming-pragmatics/
 │   │   ├── los-java-natural/       proyek Maven, 13 berkas sumber
 │   │   ├── hasil/, tangkapan/      output teks dan screenshot terminal
 │   │   └── los-natural-2B-048.zip  kiriman untuk Pak Joe
-│   └── 2026-09-21-praktikum-2-paradigma/
-│       ├── README.md               soal, ringkasan jawaban, cara menjalankan
-│       ├── kode/                   empat program: C++ imperative, C++ OO, Haskell, Prolog
-│       ├── hasil/, tangkapan/      output teks dan screenshot terminal
-│       └── laporan .pdf dan zip kiriman
+│   ├── 2026-09-21-praktikum-2-paradigma/
+│   │   ├── README.md               soal, ringkasan jawaban, cara menjalankan
+│   │   ├── kode/                   empat program: C++ imperative, C++ OO, Haskell, Prolog
+│   │   ├── hasil/, tangkapan/      output teks dan screenshot terminal
+│   │   └── laporan .pdf dan zip kiriman
+│   └── 2026-09-24-pertemuan-3-fp-ssc/
+│       ├── README.md               yang dipasang, hasil percobaan, masalah, urutan baca
+│       ├── tangkapan/              screenshot terminal Scala, Haskell, dan JAX
+│       └── latihan/logfact-app/    project sbt latihan log-factorial
 └── materi/          slide dan dokumen dari dosen, tidak ikut di-push
 
 ## Catatan
 
 Folder `materi/` berisi slide dosen, jadi tidak ikut di-push. Contoh tugas milik teman yang
-dipakai sebagai pembanding juga tidak ikut di-push.
+dipakai sebagai pembanding juga tidak ikut di-push. Clone repo kursus fp-ssc-course di pertemuan 3 juga tidak
+ikut di-push karena milik penulisnya, cukup di-clone ulang dari https://github.com/darrenjw/fp-ssc-course.

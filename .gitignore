@@ -23,3 +23,11 @@ kelas/
 
 # hasil kompilasi C++ dan Haskell, bisa dibuat ulang
 build/
+
+# clone repo kursus fp-ssc-course (milik Darren Wilkinson), cukup di-clone ulang dari GitHub
+praktikum-pak-joe/2026-09-24-pertemuan-3-fp-ssc/fp-ssc-course/
+
+# virtualenv python dan hasil build sbt, besar dan bisa dibuat ulang
+.venv-jax/
+target/
+.bsp/
