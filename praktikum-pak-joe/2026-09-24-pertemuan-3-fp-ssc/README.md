@@ -159,6 +159,7 @@ yang di praktikum 2 disimpan di variabel mutable, di FP dibawa sebagai argumen f
 ```
 2026-09-24-pertemuan-3-fp-ssc/
 ├── README.md                catatan ini
+├── catatan/                 catatan belajar per topik, mulai dari 01-konsep-dasar-fp.md
 ├── tangkapan/               8 screenshot terminal hasil percobaan
 ├── latihan/logfact-app/     project sbt latihan log-factorial
 ├── fp-ssc-course/           clone repo kursus (tidak di-push)
