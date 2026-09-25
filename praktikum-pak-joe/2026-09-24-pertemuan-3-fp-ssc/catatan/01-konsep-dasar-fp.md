@@ -48,7 +48,7 @@ tidak mencetak, tidak membaca file, tidak memakai waktu atau bilangan acak.
 def ll0(mu: Double)(x: Double): Double = -(x - mu)*(x - mu)/2.0   // pure
 
 var hitung = 0
-def f(x: Int): Int = { hitung += 1; x * 2 }                        // tidak pure: mengubah hitung
+def f(x: Int): Int = { hitung += 1; x * 2 }   // tidak pure, mengubah hitung
 ```
 
 ## 4. Referential transparency
@@ -103,17 +103,19 @@ bagus, dan cara ini sangat alami di FP.
 | list | `++` | `List()` |
 | bilangan | `max` | minus tak hingga |
 
-Syarat asosiatif `(a ⊕ b) ⊕ c = a ⊕ (b ⊕ c)` artinya **cara pengelompokannya bebas**. Karena itu data bisa
+Syarat asosiatif `(a•b)•c = a•(b•c)` (• adalah operasinya) artinya **cara pengelompokannya bebas**. Karena itu data bisa
 dipecah ke banyak prosesor lalu dijumlahkan dengan pola pohon (tree reduction):
 
 ```
-a1  a2  a3  a4  a5  a6  a7  a8
-  \/      \/      \/      \/       langkah 1: 4 operasi sekaligus
-  s12     s34     s56     s78
-     \   /           \   /         langkah 2
-     s1..4           s5..8
-          \         /              langkah 3
-            total                  3 langkah = log2(8), bukan 7 langkah
+a1   a2   a3   a4   a5   a6   a7   a8
+ \  /      \  /      \  /      \  /      langkah 1: 4 operasi sekaligus
+  s12       s34       s56       s78
+     \     /           \     /           langkah 2: 2 operasi sekaligus
+      s1..4               s5..8
+           \             /               langkah 3
+                 total
+
+3 langkah = log2(8), bukan 7 langkah seperti penjumlahan satu per satu
 ```
 
 Waktunya turun dari O(n) ke O(log n) kalau prosesornya cukup banyak. Pengurangan tidak asosiatif
