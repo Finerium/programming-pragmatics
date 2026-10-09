@@ -31,6 +31,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 | [Analisis paradigma untuk 5 studi kasus](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/) | Jumat 18 Sep 2026, teori | [PDF 23 halaman](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/PLP_P2_TE_2B_048.pdf), tabel 10 aspek per kasus plus kode Java, Haskell, dan Prolog dengan screenshot terminal asli, zip kiriman [`Tugas-P2-Paradigma_..._2BD4.zip`](teori-bu-rahil/2026-09-18-tugas-paradigma-pemrograman/Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.zip) | Selesai, belum dikumpulkan. Deadline belum diumumkan |
 | [Praktikum 2: paradigma pemrograman](praktikum-pak-joe/2026-09-21-praktikum-2-paradigma/) | Senin 21 Sep 2026, dokumen Pak Joe | Empat program dilengkapi (C++ imperative, C++ OO, Haskell, SWI-Prolog), [laporan PDF 29 halaman](praktikum-pak-joe/2026-09-21-praktikum-2-paradigma/Praktikum-2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf) berisi tabel pengamatan dan pertanyaan pengayaan, zip kiriman ada di folder yang sama | Selesai, belum dikumpulkan. Deadline belum disebut di dokumen |
 | [Latihan 3 pertemuan 3: regex di Regex101](teori-bu-rahil/2026-09-25-latihan-regex/) | Jumat 25 Sep 2026, teori | [PDF 8 halaman](teori-bu-rahil/2026-09-25-latihan-regex/PLP_P3_TE_2B_048.pdf), lima regex Latihan 2 dijalankan di regex101.com dengan screenshot dan tabel string uji | Selesai, belum dikumpulkan. Deadline belum diumumkan |
+| [Praktikum pertemuan 4: analisis leksikal](teori-bu-rahil/2026-10-09-praktikum-4-analisis-leksikal/) | Jumat 9 Okt 2026, slide Praktikum PLP 4 (Bu Rahil) | [PDF 16 halaman](teori-bu-rahil/2026-10-09-praktikum-4-analisis-leksikal/PLP_P4_TE_2B_048.pdf): pola regex dan token `int total = price + 10;`, scanner jlox Bab 4 dijalankan, latihan token dua potongan kode (manual, program, perbandingan), plus scanner modifikasi; 8 screenshot terminal | Selesai, belum dikumpulkan. Deadline belum diumumkan |
 | [Pertemuan 3: install dan coba fp-ssc-course](praktikum-pak-joe/2026-09-24-pertemuan-3-fp-ssc/) | Kamis 24 Sep 2026, pesan Pak Joe | Coursier, sbt, scala-cli, JDK 17, dan JAX terpasang; contoh Scala, Haskell, dan JAX jalan (19 tes sbt lolos), latihan sbt log-factorial, 8 screenshot terminal, urutan baca dan catatan Intro | Selesai. Dex tidak bisa dipasang karena `llvm@12` sudah tidak ada di Homebrew |
 | [Resume diskusi Crafting Interpreters Bab 2 dan 4](praktikum-pak-joe/2026-10-08-diskusi-crafting-interpreters/) | Kamis 8 Okt 2026, pesan Pak Joe | Resume individu 17 halaman: ringkasan materi lima anggota, tanya jawab, refleksi (kaitan dengan binding, regex, dan Tree-Sitter), tiga diagram di `gambar/` | Selesai, belum dikumpulkan. PDF disimpan lokal karena memuat nama anggota kelompok, deadline belum disebut |
 
@@ -45,6 +46,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 | Praktikum 2 (dokumen) | Senin 21 Sep 2026 | Paradigma pemrograman lewat satu data nilai mahasiswa, dikerjakan di empat bahasa | Tugas melengkapi kode, mengisi tabel pengamatan, dan menjawab pertanyaan pengayaan |
 | Praktikum 3 | Kamis 24 Sep 2026 (pesan) | Kursus fp-ssc-course: functional programming untuk komputasi statistik di Scala, Haskell, dan JAX | Install, coba, dan mulai baca. Tidak ada tugas tertulis |
 | Teori 3 | Jumat 25 Sep 2026 | Sintaks bahasa pemrograman: Chomsky hierarchy, regular expression (konkatenasi, union, Kleene star, plus, optional) | Latihan 1 dan 2 membuat string dan regex, Latihan 3 menjalankan regex di Regex101 |
+| Pertemuan 4 | Jumat 9 Okt 2026 | Analisis leksikal: regex, pembentukan lexeme, jenis token, dari lexeme ke token | Slide Praktikum PLP 4: jalankan scanner Lox.java dan latihan identifikasi token |
 | Praktikum (diskusi online) | Kamis 8 Okt 2026 (pesan) | Fondasi Tree-Sitter lewat buku Crafting Interpreters, Bab 2 (A Map of the Territory) dan Bab 4 (Scanning) | Diskusi kelompok direkam, transkrip kelompok, resume individu |
 
 ## Struktur folder
@@ -65,10 +67,16 @@ programming-pragmatics/
 │   │   ├── PLP_P2_TE_2B_048.pdf
 │   │   ├── Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.zip
 │   │   └── Tugas-P2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4/   isi zip yang sudah diekstrak
-│   └── 2026-09-25-latihan-regex/
-│       ├── README.md               soal, ringkasan regex, cara mengecek ulang di regex101
-│       ├── tangkapan/              screenshot regex101.com tiap soal
-│       └── PLP_P3_TE_2B_048.pdf
+│   ├── 2026-09-25-latihan-regex/
+│   │   ├── README.md               soal, ringkasan regex, cara mengecek ulang di regex101
+│   │   ├── tangkapan/              screenshot regex101.com tiap soal
+│   │   └── PLP_P3_TE_2B_048.pdf
+│   └── 2026-10-09-praktikum-4-analisis-leksikal/
+│       ├── README.md               isi slide, ringkasan hasil, cara menjalankan ulang
+│       ├── laporan.md              naskah laporan
+│       ├── kode/                   jlox versi Bab 4, versi modifikasi, dan berkas input
+│       ├── tangkapan/              screenshot terminal scanner
+│       └── PLP_P4_TE_2B_048.pdf
 ├── praktikum-pak-joe/
 │   ├── 2026-09-16-setup-haskell-prolog/
 │   │   ├── catatan.md              cara install dan cara menjalankan

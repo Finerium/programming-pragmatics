@@ -35,3 +35,6 @@ target/
 # resume diskusi Crafting Interpreters berisi nama anggota kelompok, disimpan lokal saja
 praktikum-pak-joe/2026-10-08-diskusi-crafting-interpreters/resume.md
 praktikum-pak-joe/2026-10-08-diskusi-crafting-interpreters/*.pdf
+
+# clone repo buku Crafting Interpreters untuk praktikum 4, cukup di-clone ulang dari GitHub
+teori-bu-rahil/2026-10-09-praktikum-4-analisis-leksikal/craftinginterpreters/

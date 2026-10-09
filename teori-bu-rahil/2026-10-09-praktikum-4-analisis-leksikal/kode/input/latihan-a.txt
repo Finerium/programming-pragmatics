@@ -1,0 +1,1 @@
+int diskon = total > 200000 ? total * 10 / 100 : 0;
