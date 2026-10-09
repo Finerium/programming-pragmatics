@@ -33,6 +33,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 | [Latihan 3 pertemuan 3: regex di Regex101](teori-bu-rahil/2026-09-25-latihan-regex/) | Jumat 25 Sep 2026, teori | [PDF 8 halaman](teori-bu-rahil/2026-09-25-latihan-regex/PLP_P3_TE_2B_048.pdf), lima regex Latihan 2 dijalankan di regex101.com dengan screenshot dan tabel string uji | Selesai, belum dikumpulkan. Deadline belum diumumkan |
 | [Praktikum pertemuan 4: analisis leksikal](teori-bu-rahil/2026-10-09-praktikum-4-analisis-leksikal/) | Jumat 9 Okt 2026, slide Praktikum PLP 4 (Bu Rahil) | [PDF 16 halaman](teori-bu-rahil/2026-10-09-praktikum-4-analisis-leksikal/PLP_P4_TE_2B_048.pdf): pola regex dan token `int total = price + 10;`, scanner jlox Bab 4 dijalankan, latihan token dua potongan kode (manual, program, perbandingan), plus scanner modifikasi; 8 screenshot terminal | Selesai, belum dikumpulkan. Deadline belum diumumkan |
 | [Teori pertemuan 4: regex ke NFA dan NFA ke DFA](teori-bu-rahil/2026-10-09-teori-4-regex-nfa-dfa/) | Jumat 9 Okt 2026, slide Finite Automata | [PDF 14 halaman](teori-bu-rahil/2026-10-09-teori-4-regex-nfa-dfa/PLP_P4_TE_2B_048.pdf): lima regex Latihan 1 pertemuan 3 jadi NFA (Thompson) lalu DFA (epsilon-closure dan move), lengkap dengan tabel transisi dan diagram | Selesai, belum dikumpulkan. Deadline belum diumumkan |
+| [Laporan Latihan 1-5 (P3-4-5)](teori-bu-rahil/2026-10-09-laporan-latihan-1-5/) | Jumat 9 Okt 2026, format dari contoh teman | [`PLP_P3-4-5_TE_2B_048.pdf`](teori-bu-rahil/2026-10-09-laporan-latihan-1-5/PLP_P3-4-5_TE_2B_048.pdf) dan `.docx`: Latihan 3 diketik, Latihan 1, 2, 4, 5 slot foto tulisan tangan (`foto/` lalu `python3 draf/rakit.py`) | Menunggu foto tulisan tangan |
 | [Pertemuan 3: install dan coba fp-ssc-course](praktikum-pak-joe/2026-09-24-pertemuan-3-fp-ssc/) | Kamis 24 Sep 2026, pesan Pak Joe | Coursier, sbt, scala-cli, JDK 17, dan JAX terpasang; contoh Scala, Haskell, dan JAX jalan (19 tes sbt lolos), latihan sbt log-factorial, 8 screenshot terminal, urutan baca dan catatan Intro | Selesai. Dex tidak bisa dipasang karena `llvm@12` sudah tidak ada di Homebrew |
 | [Resume diskusi Crafting Interpreters Bab 2 dan 4](praktikum-pak-joe/2026-10-08-diskusi-crafting-interpreters/) | Kamis 8 Okt 2026, pesan Pak Joe | Resume individu 17 halaman: ringkasan materi lima anggota, tanya jawab, refleksi (kaitan dengan binding, regex, dan Tree-Sitter), tiga diagram di `gambar/` | Selesai, belum dikumpulkan. PDF disimpan lokal karena memuat nama anggota kelompok, deadline belum disebut |
 
@@ -79,11 +80,15 @@ programming-pragmatics/
 │   │   ├── kode/                   jlox versi Bab 4, versi modifikasi, dan berkas input
 │   │   ├── tangkapan/              screenshot terminal scanner
 │   │   └── PLP_P4_TE_2B_048.pdf
-│   └── 2026-10-09-teori-4-regex-nfa-dfa/
-│       ├── README.md               soal, ringkasan hasil, cara membuat ulang
-│       ├── laporan.md              naskah laporan (dibuat draf/fa.py)
-│       ├── gambar/                 diagram NFA dan DFA kelima regex
-│       └── PLP_P4_TE_2B_048.pdf
+│   ├── 2026-10-09-teori-4-regex-nfa-dfa/
+│   │   ├── README.md               soal, ringkasan hasil, cara membuat ulang
+│   │   ├── laporan.md              naskah laporan (dibuat draf/fa.py)
+│   │   ├── gambar/                 diagram NFA dan DFA kelima regex
+│   │   └── PLP_P4_TE_2B_048.pdf
+│   └── 2026-10-09-laporan-latihan-1-5/
+│       ├── README.md               isi tiap latihan, cara memasang foto tulisan tangan
+│       ├── foto/                   foto tulisan tangan latihan 1, 2, 4, 5
+│       └── PLP_P3-4-5_TE_2B_048.pdf dan .docx
 ├── praktikum-pak-joe/
 │   ├── 2026-09-16-setup-haskell-prolog/
 │   │   ├── catatan.md              cara install dan cara menjalankan
