@@ -7,7 +7,7 @@ regex dari Latihan 1 pertemuan 3, diubah ke NFA (konstruksi Thompson sesuai slid
 ## Hasil
 
 [`PLP_P4_TE_2B_048.pdf`](PLP_P4_TE_2B_048.pdf), 14 halaman. Salinan di `~/Downloads/Submit PLP Teori 4 NFA DFA (Bu Rahil)/`.
-Tiap regex berisi diagram NFA, tabel transisi NFA, langkah epsilon-closure dan move, tabel DFA, dan diagram DFA.
+BAB I memuat jawaban Latihan 1 (contoh string tiap regex). Tiap regex berisi diagram NFA, tabel transisi NFA, langkah epsilon-closure dan move, tabel DFA, dan diagram DFA.
 
 | Nama | Regex | State NFA | State DFA | State final DFA |
 |---|---|---|---|---|

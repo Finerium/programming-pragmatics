@@ -6,7 +6,7 @@ Naskah sumber PDF, dibuat oleh `draf/fa.py`. Jangan diedit manual, ubah fa.py la
 
 ### 1.1 Soal
 
-Lima regular expression dari Latihan 1 pertemuan 3 diubah menjadi NFA, lalu NFA tersebut diubah menjadi DFA:
+Lima regular expression dari Latihan 1 pertemuan 3 dicari contoh string-nya, lalu diubah menjadi NFA, kemudian NFA tersebut diubah menjadi DFA:
 
 - P → `x(y)+z`, alfabet {x, y, z}
 - Q → `m | nr*`, alfabet {m, n, r}
@@ -14,7 +14,15 @@ Lima regular expression dari Latihan 1 pertemuan 3 diubah menjadi NFA, lalu NFA 
 - T → `t*(u | v)`, alfabet {t, u, v}
 - W → `x(y | z)+`, alfabet {x, y, z}
 
-### 1.2 Cara Pengerjaan
+### 1.2 Latihan 1: String yang Dihasilkan
+
+- P = {xyz, xyyz, xyyyz, ...}
+- Q = {m, n, nr, nrr, ...}
+- R = {r, pr, qr, pqr, ...}
+- T = {u, v, tu, tv, ...}
+- W = {xy, xz, xyz, xzy, ...}
+
+### 1.3 Cara Pengerjaan
 
 - Regex ke NFA memakai aturan di slide *RegEx to NFA*: NFA untuk simbol, concatenation (state akhir N(s) digabung dengan state awal N(t)), union, Kleene closure, dan positive closure. Penomoran state mengikuti contoh (a|b)*abb di slide, dari kiri ke kanan dan cabang atas lebih dulu.
 - NFA ke DFA memakai *ε-closure* dan *move* seperti di slide *Conversion of an NFA to a DFA*. Kalau hasil *move* sudah pernah dihitung, *ε-closure*-nya tidak ditulis ulang.
