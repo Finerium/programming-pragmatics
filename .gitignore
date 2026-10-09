@@ -31,3 +31,7 @@ praktikum-pak-joe/2026-09-24-pertemuan-3-fp-ssc/fp-ssc-course/
 .venv-jax/
 target/
 .bsp/
+
+# resume diskusi Crafting Interpreters berisi nama anggota kelompok, disimpan lokal saja
+praktikum-pak-joe/2026-10-08-diskusi-crafting-interpreters/resume.md
+praktikum-pak-joe/2026-10-08-diskusi-crafting-interpreters/*.pdf

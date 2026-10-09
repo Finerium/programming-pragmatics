@@ -32,6 +32,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 | [Praktikum 2: paradigma pemrograman](praktikum-pak-joe/2026-09-21-praktikum-2-paradigma/) | Senin 21 Sep 2026, dokumen Pak Joe | Empat program dilengkapi (C++ imperative, C++ OO, Haskell, SWI-Prolog), [laporan PDF 29 halaman](praktikum-pak-joe/2026-09-21-praktikum-2-paradigma/Praktikum-2-Paradigma_Ghaisan-Khoirul-Badruzaman_251524048_2BD4.pdf) berisi tabel pengamatan dan pertanyaan pengayaan, zip kiriman ada di folder yang sama | Selesai, belum dikumpulkan. Deadline belum disebut di dokumen |
 | [Latihan 3 pertemuan 3: regex di Regex101](teori-bu-rahil/2026-09-25-latihan-regex/) | Jumat 25 Sep 2026, teori | [PDF 8 halaman](teori-bu-rahil/2026-09-25-latihan-regex/PLP_P3_TE_2B_048.pdf), lima regex Latihan 2 dijalankan di regex101.com dengan screenshot dan tabel string uji | Selesai, belum dikumpulkan. Deadline belum diumumkan |
 | [Pertemuan 3: install dan coba fp-ssc-course](praktikum-pak-joe/2026-09-24-pertemuan-3-fp-ssc/) | Kamis 24 Sep 2026, pesan Pak Joe | Coursier, sbt, scala-cli, JDK 17, dan JAX terpasang; contoh Scala, Haskell, dan JAX jalan (19 tes sbt lolos), latihan sbt log-factorial, 8 screenshot terminal, urutan baca dan catatan Intro | Selesai. Dex tidak bisa dipasang karena `llvm@12` sudah tidak ada di Homebrew |
+| [Resume diskusi Crafting Interpreters Bab 2 dan 4](praktikum-pak-joe/2026-10-08-diskusi-crafting-interpreters/) | Kamis 8 Okt 2026, pesan Pak Joe | Resume individu 17 halaman: ringkasan materi lima anggota, tanya jawab, refleksi (kaitan dengan binding, regex, dan Tree-Sitter), tiga diagram di `gambar/` | Selesai, belum dikumpulkan. PDF disimpan lokal karena memuat nama anggota kelompok, deadline belum disebut |
 
 ## Progres
 
@@ -44,6 +45,7 @@ Tugas akhir mata kuliah ini adalah membuat domain specific language (DSL).
 | Praktikum 2 (dokumen) | Senin 21 Sep 2026 | Paradigma pemrograman lewat satu data nilai mahasiswa, dikerjakan di empat bahasa | Tugas melengkapi kode, mengisi tabel pengamatan, dan menjawab pertanyaan pengayaan |
 | Praktikum 3 | Kamis 24 Sep 2026 (pesan) | Kursus fp-ssc-course: functional programming untuk komputasi statistik di Scala, Haskell, dan JAX | Install, coba, dan mulai baca. Tidak ada tugas tertulis |
 | Teori 3 | Jumat 25 Sep 2026 | Sintaks bahasa pemrograman: Chomsky hierarchy, regular expression (konkatenasi, union, Kleene star, plus, optional) | Latihan 1 dan 2 membuat string dan regex, Latihan 3 menjalankan regex di Regex101 |
+| Praktikum (diskusi online) | Kamis 8 Okt 2026 (pesan) | Fondasi Tree-Sitter lewat buku Crafting Interpreters, Bab 2 (A Map of the Territory) dan Bab 4 (Scanning) | Diskusi kelompok direkam, transkrip kelompok, resume individu |
 
 ## Struktur folder
 
@@ -96,10 +98,14 @@ programming-pragmatics/
 │   │   ├── kode/                   empat program: C++ imperative, C++ OO, Haskell, Prolog
 │   │   ├── hasil/, tangkapan/      output teks dan screenshot terminal
 │   │   └── laporan .pdf dan zip kiriman
-│   └── 2026-09-24-pertemuan-3-fp-ssc/
-│       ├── README.md               yang dipasang, hasil percobaan, masalah, urutan baca
-│       ├── tangkapan/              screenshot terminal Scala, Haskell, dan JAX
-│       └── latihan/logfact-app/    project sbt latihan log-factorial
+│   ├── 2026-09-24-pertemuan-3-fp-ssc/
+│   │   ├── README.md               yang dipasang, hasil percobaan, masalah, urutan baca
+│   │   ├── tangkapan/              screenshot terminal Scala, Haskell, dan JAX
+│   │   └── latihan/logfact-app/    project sbt latihan log-factorial
+│   └── 2026-10-08-diskusi-crafting-interpreters/
+│       ├── README.md               isi pesan Pak Joe, isi resume, cara membuat ulang
+│       ├── gambar/                 tiga diagram resume
+│       └── resume .pdf dan naskahnya, lokal saja karena memuat nama anggota kelompok
 └── materi/          slide dan dokumen dari dosen, tidak ikut di-push
 
 ## Catatan
